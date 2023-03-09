@@ -1,4 +1,4 @@
-# PAI AI Kits 2022
+# PIA AI Kits 2022
 Code for AI kits used in JACU PIA 2022-2023 grant.
 
 This repository contains code used to develop educational kits that teach Artificial Intelligence for college students in technical programs.
