@@ -1,4 +1,4 @@
-# Light wrapper for sensors collecting sample data
+# Light wrapper for sensors collecting data
 
 from abc import ABC, abstractmethod
 import seeed_python_reterminal.core as reTerminal
