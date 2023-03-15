@@ -8,11 +8,11 @@ The research is done by a team from John Abbott College and Concordia University
 Codebase organization:
 
 - **hardware-testing:** Testing of individual hardware sensors and actuators. 
-- **flatform-testing:** Testing of specific AI flatforms or frameworks. 
+- **platform-testing:** Testing of specific AI flatforms or frameworks. 
 
 ## Development & Testing
 
-- Include a brief description of each test in the Readme contained in `hardware-testing` or `flatform-testing`
+- Include a brief description of each test in the Readme contained in `hardware-testing` or `platform-testing`
 - If a test is larger than a single file, create a folder.
 - Use python virtual environments for specific tests and update `requirements.txt` once done.
 
