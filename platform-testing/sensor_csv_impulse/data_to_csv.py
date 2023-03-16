@@ -1,3 +1,4 @@
+import os
 from data_sampler import Sampler
 from sensors import LightSensor, MotionSensor, LoudnessSensor
 import argparse
@@ -57,7 +58,10 @@ def build_file_name(cli_args) -> str:
 
 
 def write_to_csv(file_name: str, data: list[list]):
-    #TODO: create directory if it does not exists.
+    #creates directory if it does not exists.
+    if not os.path.exists(file_name):
+        os.makedirs(os.path.dirname(file_name))
+        
     with open(file_name, 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(('timestamp', 'temperature', 'light level'))
