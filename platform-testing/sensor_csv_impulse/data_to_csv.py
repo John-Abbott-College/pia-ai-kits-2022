@@ -9,8 +9,8 @@ import csv
 """Save collected data to csv file using Edge Impulse format.
 """
 # Defaults
-FILE_NAME_BASE = "detect_motion_data"
-INTERVAL_MS = 15
+FILE_NAME_BASE = "Possible_Human_Activity"
+INTERVAL_MS = 1000
 SAMPLE_LENGTH_SECS = 5
 DATA_FOLDER = "samples/"
 MOTION_LABEL = "motion-"
@@ -54,7 +54,7 @@ def build_file_name(cli_args) -> str:
     time_label = str(human_time).replace(
         " ", "T").split(".")[0].replace(":", "-")
 
-    return f"./{args.directory}{data_label}{args.filename}_{time_label}.csv"
+    return f"./{args.directory}{args.filename}_{time_label}.csv"
 
 
 def write_to_csv(file_name: str, data: list[list]):
@@ -112,7 +112,7 @@ def collect_data(sampler: Sampler, interval_ms: int, sample_length: int) -> list
             no_readings += 1
 
     print("final time: ", delta_time(start_counter), "with", no_readings,
-          "readings, sample lenght", sample_length, "secs, reading interval", interval_ms, "ms")
+          "readings, sample length", sample_length, "secs, reading interval", interval_ms, "ms")
     return data
 
 

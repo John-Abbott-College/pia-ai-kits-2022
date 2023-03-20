@@ -1,7 +1,10 @@
 #!/bin/bash
 
 echo "Creating csv file..."
-python ./platform-testing/sensor_csv_impulse/data_to_csv.py
+for i in $(seq 1 10)
+do
+    python ./data_to_csv.py -l 10
+done
 
 echo "Uploading csv files..."
 edge-impulse-uploader ./samples/*.csv
