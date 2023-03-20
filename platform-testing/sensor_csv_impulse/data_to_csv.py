@@ -86,7 +86,7 @@ def collect_data(sampler: Sampler, interval_ms: int, sample_length: int) -> list
     # time.time() is not guaranteed to be accurate so we'll use it for timestamps and
     # time.perf_counter() for tracking time intervals.
     interval_secs = interval_ms/1000
-    data_timestamp = time.time()
+    data_timestamp = 0 
     start_counter = time.perf_counter()
     current_counter = start_counter
 
@@ -101,7 +101,8 @@ def collect_data(sampler: Sampler, interval_ms: int, sample_length: int) -> list
         if delta_time(current_counter) < interval_secs:
             pass
         else:
-            data_timestamp += delta_time(current_counter)
+            # Timestamp entries are expected to be in milliseconds.
+            data_timestamp += interval_ms
             # reading_start = time.perf_counter() # debugging only
             reading = sampler.read_sensors()
             # print("reading took", time.perf_counter() - reading_start, "secs") # debugging only
