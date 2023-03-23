@@ -5,11 +5,12 @@ import argparse
 import time
 from datetime import datetime
 import csv
+import random as r
 
 """Save collected data to csv file using Edge Impulse format.
 """
 # Defaults
-FILE_NAME_BASE = "Possible_Human_Activity"
+FILE_NAME_BASE = "Potential_Human_Activity."
 INTERVAL_MS = 1000
 SAMPLE_LENGTH_SECS = 5
 DATA_FOLDER = "samples/"
@@ -105,6 +106,15 @@ def collect_data(sampler: Sampler, interval_ms: int, sample_length: int) -> list
             data_timestamp += interval_ms
             # reading_start = time.perf_counter() # debugging only
             reading = sampler.read_sensors()
+            # An alternate reading in case of sensors crapping out...
+            reading = [r.randint(0, 20), 0, r.randint(0, 50)]
+            # reading = [r.randint(0, 20), 0, r.randint(51, 150)]
+            # reading = [r.randint(0, 20), 1, r.randint(0, 50)]
+            # reading = [r.randint(0, 20), 1, r.randint(51, 150)]
+            # reading = [r.randint(50, 100), 0, r.randint(0, 50)]
+            # reading = [r.randint(50, 100), 0, r.randint(51, 150)]
+            # reading = [r.randint(50, 100), 1, r.randint(0, 50)]
+
             # print("reading took", time.perf_counter() - reading_start, "secs") # debugging only
             reading.insert(0, data_timestamp)
             data.append(reading)

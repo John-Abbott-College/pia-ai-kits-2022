@@ -1,0 +1,1 @@
+python ./classify.py ./modelfile.eim ./samples/No_Human_Activity._2023-03-21T01-03-26.csv
