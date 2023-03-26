@@ -106,8 +106,8 @@ def collect_data(sampler: Sampler, interval_ms: int, sample_length: int) -> list
             data_timestamp += interval_ms
             # reading_start = time.perf_counter() # debugging only
             reading = sampler.read_sensors()
-            # An alternate reading in case of sensors crapping out...
-            reading = [r.randint(0, 20), 0, r.randint(0, 50)]
+            # Alternate readings in case of sensors not working...
+            # reading = [r.randint(0, 20), 0, r.randint(0, 50)]
             # reading = [r.randint(0, 20), 0, r.randint(51, 150)]
             # reading = [r.randint(0, 20), 1, r.randint(0, 50)]
             # reading = [r.randint(0, 20), 1, r.randint(51, 150)]
