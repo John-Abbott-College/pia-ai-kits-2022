@@ -4,12 +4,12 @@ label=$1
 num_of_samples_to_generate=$2
 length_of_sample=$3
 
-if [$# -eq 0]
+if [ $# -eq 0 ]
    then
    echo "Error: the label argument must be provided." >&2; exit 1
 fi
 
-if  [ $label != "-s" ] && [ $label != "-m"]
+if  [[ $label != "-s"  &&  $label != "-m" ]]
    then
    echo "Error: you must provide either an -s (no human activity) or a -m (possible human activity) as the first argument to denote which label the data will be sampled for." >&2; exit 1
 fi
@@ -38,4 +38,4 @@ do
 done
 
 # echo "Uploading csv files..."
-# edge-impulse-uploader ./samples/*.csv
+edge-impulse-uploader ./samples/*.csv
