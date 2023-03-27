@@ -32,7 +32,7 @@ https://docs.edgeimpulse.com/reference/data-ingestion/importing-csv-data
 ## Training the model
 After the data is collected and uploaded to Edge Impulse: the model can then be trained using the Edge Impulse interface.
 
-Help for training on Edge Impulse can be found here: https://docs.edgeimpulse.com/docs
+Help for model training on Edge Impulse can be found here: https://docs.edgeimpulse.com/docs
 
 You can then download the model binary file by executing the code below:
 ```bash
