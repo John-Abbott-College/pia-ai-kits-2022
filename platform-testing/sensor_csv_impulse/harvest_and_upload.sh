@@ -9,9 +9,9 @@ if [ $# -eq 0 ]
    echo "Error: the label argument must be provided." >&2; exit 1
 fi
 
-if  [[ $label != "-s"  &&  $label != "-m" ]]
+if  [[ $label != "-n"  &&  $label != "-p" ]]
    then
-   echo "Error: you must provide either an -s (no human activity) or a -m (possible human activity) as the first argument to denote which label the data will be sampled for." >&2; exit 1
+   echo "Error: you must provide either an -n (no human activity) or a -p (possible human activity) as the first argument to denote which label the data will be sampled for." >&2; exit 1
 fi
 # Check for default arguments
 if [ $# -eq 1 ]

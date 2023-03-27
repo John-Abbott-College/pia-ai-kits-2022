@@ -22,10 +22,10 @@ def config_arguments():
 
     # Prepare parser for CLI arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument('-s', '--still', action='store_true',
-                        help="add 'still' label to sample")
-    parser.add_argument('-m', '--motion', action='store_true',
-                        help="add 'motion' label to sample")
+    parser.add_argument('-n', '--no', action='store_true',
+                        help="add 'No' label to sample")
+    parser.add_argument('-p', '--potential', action='store_true',
+                        help="add 'Potential' label to sample")
     parser.add_argument('-i', '--interval', type=int, default=INTERVAL_MS,
                         help="time internal between samples in milliseconds")
     parser.add_argument('-l', '--length', type=int, default=SAMPLE_LENGTH_SECS,
