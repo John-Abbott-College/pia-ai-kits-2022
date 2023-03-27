@@ -11,7 +11,7 @@ You can collect and upload data by running this bash file (assuming that the sen
 ```bash
 bash ./harvest_and_upload.sh < label >
 ```
-The label must be specified as either "-m" for possible human activity or "-s" for no human activity.
+The label must be specified as either "-p" for possible human activity or "-n" for no human activity.
 
 This will generate 10 samples that are 10 seconds in length each in a folder caled "./samples"
 
