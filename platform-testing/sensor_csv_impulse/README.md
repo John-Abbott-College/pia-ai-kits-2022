@@ -20,6 +20,15 @@ You can change change the amount of samples and the length of each individual sa
 bash ./harvest_and_upload.sh < label > < number of samples to generate > < length of seconds >
 ```
 Both arguments would have to be specified if you want to adjust either of them.
+
+**Note**
+The edge-impulse-uploader can be invoked to upload many csv files at once.
+```bash
+edge-impulse-uploader < file path to csv folder >/*.csv
+```
+Make sure that the csv files follow the edge-impulse convention described here:
+https://docs.edgeimpulse.com/reference/data-ingestion/importing-csv-data
+
 ## Training the model
 After the data is collected and uploaded to Edge Impulse: the model can then be trained using the Edge Impulse interface.
 
