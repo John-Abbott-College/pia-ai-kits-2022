@@ -10,12 +10,12 @@ import random as r
 """Save collected data to csv file using Edge Impulse format.
 """
 # Defaults
-FILE_NAME_BASE = "Potential_Human_Activity."
+FILE_NAME_BASE = "_Human_Activity."
 INTERVAL_MS = 1000
 SAMPLE_LENGTH_SECS = 5
 DATA_FOLDER = "samples/"
-MOTION_LABEL = "motion-"
-STILL_LABEL = "still-"
+MOTION_LABEL = "Potential"
+STILL_LABEL = "No"
 
 
 def config_arguments():
@@ -55,7 +55,7 @@ def build_file_name(cli_args) -> str:
     time_label = str(human_time).replace(
         " ", "T").split(".")[0].replace(":", "-")
 
-    return f"./{args.directory}{args.filename}_{time_label}.csv"
+    return f"./{args.directory}{data_label}{args.filename}_{time_label}.csv"
 
 
 def write_to_csv(file_name: str, data: list[list]):
