@@ -3,7 +3,8 @@ The files in this folder are a project to create samples that can be uploaded to
 
 **What is required:**
 - An Edge Impulse account and an Edge Impulse project.
-- A Reterminal Raspberry Pi.
+- A Reterminal Raspberry Pi, base hat, and sensors.
+- The Edge-Impulse Linux is required as well. Installation instructions can be found here: https://docs.edgeimpulse.com/docs/edge-impulse-for-linux/edge-impulse-for-linux
 - The Edge-Impulse python sdk is required, tutorial to install can be found here: https://docs.edgeimpulse.com/docs/edge-impulse-for-linux/linux-python-sdk
 
 ## harvest_and_upload.sh
