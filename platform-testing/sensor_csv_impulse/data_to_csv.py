@@ -14,8 +14,8 @@ FILE_NAME_BASE = "_Human_Activity."
 INTERVAL_MS = 1000
 SAMPLE_LENGTH_SECS = 5
 DATA_FOLDER = "samples/"
-MOTION_LABEL = "Potential"
-STILL_LABEL = "No"
+POTENTIAL_MOTION_LABEL = "Potential"
+NO_MOTION_LABEL = "No"
 
 
 def config_arguments():
@@ -44,10 +44,10 @@ def build_file_name(cli_args) -> str:
     """
     timestamp = time.time()
 
-    if cli_args.still:
-        data_label = STILL_LABEL
-    elif cli_args.motion:
-        data_label = MOTION_LABEL
+    if cli_args.no:
+        data_label = NO_MOTION_LABEL
+    elif cli_args.potential:
+        data_label = POTENTIAL_MOTION_LABEL
     else:
         data_label = ""
 
