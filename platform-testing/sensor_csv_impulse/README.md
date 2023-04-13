@@ -9,7 +9,8 @@ The files in this folder are a project to create samples that can be uploaded to
 **Note:**
 The sensors that are used in this project are the built-in ReTerminal light sensor, [Grove - PIR Motion Sensor](https://wiki.seeedstudio.com/Grove-PIR_Motion_Sensor/), and [Grove - Loudness Sensor](https://wiki.seeedstudio.com/Grove-PIR_Motion_Sensor/)
 ## ReTerminal Setup
-- Connect the Base Hat to the 40-Pin Raspberry Pi Compatible Header.
+- Connect the Base Hat to the 40-Pin Raspberry Pi Compatible Header. 
+> Specify the orientation. Make the picture smaller.
   ![Connected Pins](./Assets/Pins.jpg)
 - Connect a motion sensor to the PWM Port on the Base Hat.
 - Connect a Loudness sensor to the A0 Port on the Base Hat.
