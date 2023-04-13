@@ -3,9 +3,38 @@ The files in this folder are a project to create samples that can be uploaded to
 
 **What is required:**
 - An Edge Impulse account and an Edge Impulse project.
-- A Reterminal Raspberry Pi, base hat, and sensors.
+- A ReTerminal Raspberry Pi, base hat, sensors and ribbon connector. Philips Screwdriver is reccomended.
 - The Edge-Impulse Linux is required as well. Installation instructions can be found here: https://docs.edgeimpulse.com/docs/edge-impulse-for-linux/edge-impulse-for-linux
 - The Edge-Impulse python sdk is required, tutorial to install can be found here: https://docs.edgeimpulse.com/docs/edge-impulse-for-linux/linux-python-sdk
+**Note:**
+The sensors that are used in this project are the built-in ReTerminal light sensor, [Grove - PIR Motion Sensor](https://wiki.seeedstudio.com/Grove-PIR_Motion_Sensor/), and [Grove - Loudness Sensor](https://wiki.seeedstudio.com/Grove-PIR_Motion_Sensor/)
+## ReTerminal Setup
+- Connect the Base Hat to the 40-Pin Raspberry Pi Compatible Header.
+  ![Connected Pins](./Assets/Pins.jpg)
+- Connect a motion sensor to the PWM Port on the Base Hat.
+- Connect a Loudness sensor to the A0 Port on the Base Hat.
+![Base Hat Image](./Assets/BaseHat.jpg)
+
+## Remotely Connecting to ReTerminal via SSH
+Make sure that both the ReTerminal and your computer are on the same network (wifi or ethernet). If the ReTerminal is the only raspberry pi on the network, you can connect with the code below:
+```bash
+ssh username@raspberrypi.local
+```
+where username is the username of the account on the pi.
+
+You may also connect to the ReTerminal using its ip address found by hovering over the network button.
+![wifi location](./Assets/wifi.png)
+
+It can also be found by typing:
+```bash
+ip addr
+``` 
+
+The ReTerminal can then be connected by typing:
+```bash
+ssh username@ipaddress
+```
+where ipaddress is the ip address of the ReTerminal.
 
 ## harvest_and_upload.sh
 You can collect and upload data by running this bash file (assuming that the sensors are properly connected).
@@ -22,7 +51,7 @@ bash ./harvest_and_upload.sh < label > < number of samples to generate > < lengt
 ```
 Both arguments would have to be specified if you want to adjust either of them.
 
-**Note**
+**Note:**
 The edge-impulse-uploader can be invoked to upload many csv files at once.
 ```bash
 edge-impulse-uploader < file path to csv folder >/*.csv
@@ -47,6 +76,6 @@ Remember to specify a path like so:
 ```bash
 python ./classify.py < path to model >.eim
 ```
-and to make sure that the sensors are properly connected to the reterminal.
+and to make sure that the sensors are properly connected to the ReTerminal.
 
 
