@@ -93,6 +93,12 @@ def record_audio(file_name: str):
     stream.close()
     p.terminate()
 
+    #creates directory if it does not exists.
+    dir = os.path.dirname(file_name)
+    if not os.path.exists(dir):
+        os.makedirs(dir)
+
+
     wf = wave.open(file_name, 'wb')
     wf.setnchannels(1)
     wf.setsampwidth(p.get_sample_size(
