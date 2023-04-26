@@ -4,27 +4,28 @@ import time
 from datetime import datetime
 import pyaudio
 import wave
-import numpy as np
+from pixels import Pixels
+import subprocess
+# import numpy as np
 
 
 """Save collected data to csv file using Edge Impulse format.
 """
 # Defaults
-FILE_NAME_BASE = ".room_audio_"
+FILE_NAME_BASE = "room_audio"
+NUMBER_OF_SAMPLES = 100
 INTERVAL_SECS = 10
-SAMPLE_LENGTH_SECS = 5
 DATA_FOLDER = "samples/"
 ACTIVITY_LABEL = "activity"
 NO_ACTIVITY_LABEL = "empty"
 
+RECORD_SECONDS = 2
+# run getDeviceInfo.py to get index
+RESPEAKER_INDEX = 0  # refer to input device id
 RESPEAKER_RATE = 16000
 RESPEAKER_CHANNELS = 2
 RESPEAKER_WIDTH = 2
-# run getDeviceInfo.py to get index
-RESPEAKER_INDEX = 0  # refer to input device id
 CHUNK = 1024
-RECORD_SECONDS = 10
-# WAVE_OUTPUT_FILENAME = ".room_audio_.wav"
 
 
 def config_arguments():
@@ -35,14 +36,18 @@ def config_arguments():
                         help="add 'empty' label to sample")
     parser.add_argument('-a', '--activity', action='store_true',
                         help="add 'activity' label to sample")
+    parser.add_argument('-n', '--number_samples', type=int, default=NUMBER_OF_SAMPLES,
+                        help=f"Number of samples to take in a row, defaults to {NUMBER_OF_SAMPLES}")
     parser.add_argument('-i', '--interval', type=int, default=INTERVAL_SECS,
-                        help="time internal between samples in seconds")
-    parser.add_argument('-l', '--length', type=int, default=SAMPLE_LENGTH_SECS,
-                        help="total sample time length in seconds")
+                        help=f"time internal between samples in seconds, defaults to {INTERVAL_SECS}")
+    parser.add_argument('-l', '--length', type=int, default=RECORD_SECONDS,
+                        help=f"total sample time length in seconds, defaults to {RECORD_SECONDS}")
     parser.add_argument('-f', '--filename', type=str, default=FILE_NAME_BASE,
-                        help="base filename for audio file")
+                        help=f"base filename for audio file, defaults to {FILE_NAME_BASE}")
     parser.add_argument('-d', '--directory', type=str, default=DATA_FOLDER,
-                        help="directory to store csv files")
+                        help=f"directory to store csv files. defaults to {DATA_FOLDER}")
+    parser.add_argument('-p', '--pixels', action='store_true',
+                        help=f"Whether to use pixel lights while running.")
     return parser.parse_args()
 
 
@@ -64,10 +69,10 @@ def build_file_name(cli_args) -> str:
     time_label = str(human_time).replace(
         " ", "T").split(".")[0].replace(":", "-")
 
-    return f"./{args.directory}{data_label}{args.filename}{time_label}.wav"
+    return f"./{args.directory}{data_label}.{time_label}_{args.filename}.wav"
 
 
-def record_audio(file_name: str):
+def record_audio(file_name: str, args):
     p = pyaudio.PyAudio()
 
     stream = p.open(
@@ -81,11 +86,9 @@ def record_audio(file_name: str):
 
     frames = []
 
-    for i in range(0, int(RESPEAKER_RATE / CHUNK * RECORD_SECONDS)):
+    for i in range(0, int(RESPEAKER_RATE / CHUNK * args.length)):
         data = stream.read(CHUNK)
-        # extract channel 0 data from 2 channels, if you want to extract channel 1, please change to [1::2]
-        a = np.frombuffer(data, dtype=np.int16)[0::2]
-        frames.append(a.tobytes())
+        frames.append(data)
 
     print("* done recording")
 
@@ -93,14 +96,13 @@ def record_audio(file_name: str):
     stream.close()
     p.terminate()
 
-    #creates directory if it does not exists.
+    # creates directory if it does not exists.
     dir = os.path.dirname(file_name)
     if not os.path.exists(dir):
         os.makedirs(dir)
 
-
     wf = wave.open(file_name, 'wb')
-    wf.setnchannels(1)
+    wf.setnchannels(RESPEAKER_CHANNELS)
     wf.setsampwidth(p.get_sample_size(
         p.get_format_from_width(RESPEAKER_WIDTH)))
     wf.setframerate(RESPEAKER_RATE)
@@ -110,5 +112,33 @@ def record_audio(file_name: str):
 
 if __name__ == "__main__":
     args = config_arguments()
-    file_name = build_file_name(args)
-    record_audio(file_name)    
+    use_pixels = args.pixels
+    pixels = Pixels()
+    if use_pixels:
+        pixels.wakeup()
+
+    for i in range(args.number_samples):
+        try:
+            file_name = build_file_name(args)
+            if use_pixels:
+                pixels.think()
+            record_audio(file_name, args)
+            if use_pixels:
+                pixels.speak()
+            if i == args.number_samples-1:
+                break
+            print(f"Waiting {args.interval} seconds to next recording.")
+            time.sleep(args.interval)
+
+        except KeyboardInterrupt:
+            break
+
+    if use_pixels:
+        pixels.wakeup()
+    print("Uploading samples to Edge Impulse")
+    output = subprocess.run(
+        ["edge-impulse-uploader", f"{args.directory}/*.wav"], capture_output=True, check=True, text=True)
+    print(output.stdout)
+
+    if use_pixels:
+        pixels.off()
