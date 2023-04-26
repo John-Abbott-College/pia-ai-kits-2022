@@ -6,15 +6,13 @@ import pyaudio
 import wave
 from pixels import Pixels
 import subprocess
-# import numpy as np
+from dataclasses import dataclass
 
 
-"""Save collected data to csv file using Edge Impulse format.
-"""
 # Defaults
 FILE_NAME_BASE = "room_audio"
 NUMBER_OF_SAMPLES = 100
-INTERVAL_SECS = 10
+SLEEP_SECS = 5
 DATA_FOLDER = "samples/"
 ACTIVITY_LABEL = "activity"
 NO_ACTIVITY_LABEL = "empty"
@@ -26,6 +24,7 @@ RESPEAKER_RATE = 16000
 RESPEAKER_CHANNELS = 2
 RESPEAKER_WIDTH = 2
 CHUNK = 1024
+SAMPLE_FLUSH_SECS = 0.5  # time to remove from beginning of sample
 
 
 def config_arguments():
@@ -38,8 +37,8 @@ def config_arguments():
                         help="add 'activity' label to sample")
     parser.add_argument('-n', '--number_samples', type=int, default=NUMBER_OF_SAMPLES,
                         help=f"Number of samples to take in a row, defaults to {NUMBER_OF_SAMPLES}")
-    parser.add_argument('-i', '--interval', type=int, default=INTERVAL_SECS,
-                        help=f"time internal between samples in seconds, defaults to {INTERVAL_SECS}")
+    parser.add_argument('-s', '--sleep', type=int, default=SLEEP_SECS,
+                        help=f"time internal between samples in seconds, defaults to {SLEEP_SECS}")
     parser.add_argument('-l', '--length', type=int, default=RECORD_SECONDS,
                         help=f"total sample time length in seconds, defaults to {RECORD_SECONDS}")
     parser.add_argument('-f', '--filename', type=str, default=FILE_NAME_BASE,
@@ -84,10 +83,15 @@ def record_audio(file_name: str, args):
 
     print("* recording")
 
-    frames = []
+    frames = list()
 
-    for i in range(0, int(RESPEAKER_RATE / CHUNK * args.length)):
+    for i in range(0, int(RESPEAKER_RATE / CHUNK * (args.length + SAMPLE_FLUSH_SECS))):
         data = stream.read(CHUNK)
+
+        # Beginning of sample consistently included a "pop" sound
+        # Number of chunks to remove from beginning of sample
+        if i < (int(RESPEAKER_RATE / CHUNK * (args.length + SAMPLE_FLUSH_SECS))):
+            continue
         frames.append(data)
 
     print("* done recording")
@@ -110,35 +114,55 @@ def record_audio(file_name: str, args):
     wf.close()
 
 
+@dataclass
+class PixelWrapper:
+    enable: bool
+    pixels = Pixels()
+
+    def think(self):
+        if self.enable:
+            self.pixels.think()
+
+    def speak(self):
+        if self.enable:
+            self.pixels.speak()
+
+    def wakeup(self):
+        if self.enable:
+            self.pixels.wakeup()
+
+    def off(self):
+        if self.enable:
+            self.pixels.off()
+
+
 if __name__ == "__main__":
     args = config_arguments()
-    use_pixels = args.pixels
-    pixels = Pixels()
-    if use_pixels:
-        pixels.wakeup()
+    pixels = PixelWrapper(enable=args.pixels)
+
+    pixels.wakeup()
 
     for i in range(args.number_samples):
         try:
+            pixels.think()
+
             file_name = build_file_name(args)
-            if use_pixels:
-                pixels.think()
             record_audio(file_name, args)
-            if use_pixels:
-                pixels.speak()
+
+            pixels.speak()
+            # Don't sleep after taking the last sample
             if i == args.number_samples-1:
                 break
-            print(f"Waiting {args.interval} seconds to next recording.")
-            time.sleep(args.interval)
+            print(f"Waiting {args.sleep} seconds to next recording.")
+            time.sleep(args.sleep)
 
         except KeyboardInterrupt:
             break
 
-    if use_pixels:
-        pixels.wakeup()
+    pixels.wakeup()
     print("Uploading samples to Edge Impulse")
     output = subprocess.run(
         ["edge-impulse-uploader", f"{args.directory}/*.wav"], capture_output=True, check=True, text=True)
     print(output.stdout)
 
-    if use_pixels:
-        pixels.off()
+    pixels.off()
