@@ -74,7 +74,7 @@ Then navigate to the folder containing the project files:
 cd ./pia-ai-kits-2022/platform-testing/sensor_csv_impulse/
 ```
 
-## Installing the Edge Impulse tools and dependencies: 
+## Installing the Edge Impulse tools and dependencies
 Once you have navigated to the sensor_csv_impulse folder, run the project-prep.sh like below:
 ```sh
 bash project-prep.sh
@@ -86,7 +86,7 @@ During installation, you should be prompted for your Edge Impulse Account creden
 After that, you can pick an Edge Impulse project and the installation should be complete.
 
 
-### harvest_and_upload.sh
+## Collecting and uploading data to Edge Impulse 
 You can collect and upload data by running this bash file (assuming that the sensors are properly connected).
 
 
@@ -122,7 +122,7 @@ You can then download the model binary file by executing the code below:
 edge-impulse-runner --download < insert name here >.eim
 ```
 
-## classify.py
+## Classify new data on your device
 After acquiring the model, you can then run the classify.py script.
 
 Remember to specify a path like so:
