@@ -52,16 +52,6 @@ where ipaddress is the ip address of the ReTerminal.
 
 An Edge Impulse account is required to create a model and automatically upload data.
 
-## Installing the Edge Impulse CLI tool
-> Mention again that installing the Edge Impulse CLI tool is a requirement.
-> - List the commands that would confirm that the installation is setup properly. For example:
-
-```shell
-edge-impulse uploader --help
-```
-
-Would confirm that the node edge impulse uploader is working properly.
-
 ## Cloning Project Repository
 
 To have access to the code used to collect data, it is necessary to clone this repository.
@@ -83,6 +73,17 @@ Then navigate to the folder containing the project files:
 ```sh
 cd ./pia-ai-kits-2022/platform-testing/sensor_csv_impulse/
 ```
+
+## Installing the Edge Impulse tools and dependencies: 
+Once you have navigated to the sensor_csv_impulse folder, run the project-prep.sh like below:
+```sh
+bash project-prep.sh
+```
+This will install all the packages needed to run this project.
+
+During installation, you should be prompted for your Edge Impulse Account credentials.
+
+After that, you can pick an Edge Impulse project and the installation should be complete.
 
 
 ### harvest_and_upload.sh

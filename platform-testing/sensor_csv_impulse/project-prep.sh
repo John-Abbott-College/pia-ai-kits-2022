@@ -35,6 +35,14 @@ echo "Installing Edge Impulse Linux Platform:"
 sudo apt install -y gcc g++ make build-essential nodejs sox gstreamer1.0-tools gstreamer1.0-plugins-good gstreamer1.0-plugins-base gstreamer1.0-plugins-base-apps
 npm config set user root && sudo npm install edge-impulse-linux -g --unsafe-perm
 
+# Installing Python SDK
 echo ""
-echo "Installation Complete: It is reccomended that you reboot your device."
+echo "Installing Edge Impulse Python SDK:"
+sudo apt-get install libatlas-base-dev libportaudio0 libportaudio2 libportaudiocpp0 portaudio19-dev 
+pip3 install edge_impulse_linux -i https://pypi.python.org/simple
+
+edge-impulse-linux
+
+echo ""
+echo "Installation Complete: It is recommended that you reboot your device."
 
