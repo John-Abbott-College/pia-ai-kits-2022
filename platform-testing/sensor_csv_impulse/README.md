@@ -4,10 +4,20 @@ The files in this folder are a project to create samples that can be uploaded to
 **What is required:**
 - An Edge Impulse account and an Edge Impulse project.
 - A ReTerminal Raspberry Pi, base hat, sensors and ribbon connector. Philips Screwdriver is reccomended.
-- The Edge-Impulse Linux is required as well. Installation instructions can be found here: https://docs.edgeimpulse.com/docs/edge-impulse-for-linux/edge-impulse-for-linux
+- Install [Python Library for reTerminal](https://pypi.org/project/seeed-python-reterminal/)
+- If using the [Grove Base Hat](https://wiki.seeedstudio.com/Grove_Base_Hat_for_Raspberry_Pi/) as an ADC (analog to digital converter), install the [Python library for Seeedstudio Grove Devices](https://github.com/Seeed-Studio/grove.py).
+
+- The Edge-Impulse Linux is required as well. Installation [instructions for the Raspberry Pi  can be found here](https://docs.edgeimpulse.com/docs/development-platforms/officially-supported-cpu-gpu-targets/raspberry-pi-4).
+	- The installation instructions for Edge Impulse CLI seems to be outdated. Please follow the guide below:
+		- https://docs.edgeimpulse.com/docs/edge-impulse-cli/cli-installation
+	
 - The Edge-Impulse python sdk is required, tutorial to install can be found here: https://docs.edgeimpulse.com/docs/edge-impulse-for-linux/linux-python-sdk
+
+
 **Note:**
 The sensors that are used in this project are the built-in ReTerminal light sensor, [Grove - PIR Motion Sensor](https://wiki.seeedstudio.com/Grove-PIR_Motion_Sensor/), and [Grove - Loudness Sensor](https://wiki.seeedstudio.com/Grove-PIR_Motion_Sensor/)
+
+
 ## ReTerminal Setup
 - Connect the Base Hat to the 40-Pin Raspberry Pi Compatible Header.
   ![Connected Pins](./Assets/Pins.jpg)
@@ -18,14 +28,16 @@ The sensors that are used in this project are the built-in ReTerminal light sens
 ## Remotely Connecting to ReTerminal via SSH
 Make sure that both the ReTerminal and your computer are on the same network (wifi or ethernet). If the ReTerminal is the only raspberry pi on the network, you can connect with the code below:
 ```bash
-ssh username@raspberrypi.local
+ssh username@hostname
 ```
 where username is the username of the account on the pi.
 
-You may also connect to the ReTerminal using its ip address found by hovering over the network button.
+If you don't know the host name of your raspberry, you can also connect  using its ip address found by hovering over the network button:
+
+
 ![wifi location](./Assets/wifi.png)
 
-It can also be found by typing:
+The ip address can also be found by typing:
 ```bash
 ip addr
 ``` 
@@ -36,11 +48,51 @@ ssh username@ipaddress
 ```
 where ipaddress is the ip address of the ReTerminal.
 
-## harvest_and_upload.sh
+## Creating an Edge Impulse Account
+
+An Edge Impulse account is required to create a model and automatically upload data.
+
+## Installing the Edge Impulse CLI tool
+> Mention again that installing the Edge Impulse CLI tool is a requirement.
+> - List the commands that would confirm that the installation is setup properly. For example:
+
+```shell
+edge-impulse uploader --help
+```
+
+Would confirm that the node edge impulse uploader is working properly.
+
+## Cloning Project Repository
+
+To have access to the code used to collect data, it is necessary to clone this repository.
+
+Choose a directory in your computer such as Downloads:
+
+```sh
+cd ~/Downloads
+```
+
+and then clone this repository:
+
+```sh
+git clone https://github.com/John-Abbott-College/pia-ai-kits-2022.git
+```
+
+Then navigate to the folder containing the project files:
+
+```sh
+cd ./pia-ai-kits-2022/platform-testing/sensor_csv_impulse/
+```
+
+
+### harvest_and_upload.sh
 You can collect and upload data by running this bash file (assuming that the sensors are properly connected).
+
+
 ```bash
 bash ./harvest_and_upload.sh < label >
 ```
+
 The label must be specified as either "-p" for possible human activity or "-n" for no human activity.
 
 This will generate 10 samples that are 10 seconds in length each in a folder caled "./samples"
