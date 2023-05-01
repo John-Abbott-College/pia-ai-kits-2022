@@ -90,7 +90,7 @@ def record_audio(file_name: str, args):
 
         # Beginning of sample consistently included a "pop" sound
         # Number of chunks to remove from beginning of sample
-        if i < (int(RESPEAKER_RATE / CHUNK * (args.length + SAMPLE_FLUSH_SECS))):
+        if i < (int(RESPEAKER_RATE / CHUNK * SAMPLE_FLUSH_SECS)):
             continue
         frames.append(data)
 
