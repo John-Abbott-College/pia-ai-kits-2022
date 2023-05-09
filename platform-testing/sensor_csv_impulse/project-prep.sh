@@ -41,6 +41,13 @@ echo "Installing Edge Impulse Python SDK:"
 sudo apt-get install libatlas-base-dev libportaudio0 libportaudio2 libportaudiocpp0 portaudio19-dev 
 pip3 install edge_impulse_linux -i https://pypi.python.org/simple
 
+# Installing ReSpeaker Dependencies
+echo ""
+echo "Installing Respeaker Dependencies"
+git clone https://github.com/Seeed-Projects/seeed-voicecard.git
+cd seeed-voicecard
+sudo ./install.sh
+
 edge-impulse-linux
 
 echo ""
