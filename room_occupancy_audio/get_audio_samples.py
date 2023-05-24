@@ -157,7 +157,7 @@ if __name__ == "__main__":
             time.sleep(args.sleep)
 
         except KeyboardInterrupt:
-            break
+            continue
 
     pixels.wakeup()
     print("Uploading samples to Edge Impulse")
