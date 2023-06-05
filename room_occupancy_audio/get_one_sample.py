@@ -108,5 +108,6 @@ def record_audio(file_name: str, args):
 
 if __name__ == "__main__":
 
+    args = config_arguments()
     file_name = build_file_name(args)
     record_audio(file_name, args)
