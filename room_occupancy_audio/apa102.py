@@ -78,7 +78,7 @@ class APA102:
     LED_START = 0b11100000 # Three "1" bits, followed by 5 brightness bits
 
     def __init__(self, num_led, global_brightness=MAX_BRIGHTNESS,
-                 order='rgb', bus=0, device=1, max_speed_hz=8000000):
+                 order='rgb', bus=0, device=0, max_speed_hz=8000000):
         self.num_led = num_led  # The number of LEDs in the Strip
         order = order.lower()
         self.rgb = RGB_MAP.get(order, RGB_MAP['rgb'])
