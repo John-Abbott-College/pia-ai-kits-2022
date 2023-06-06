@@ -4,7 +4,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/3 vectors - think yellow.png" alt="" width="373"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 vectors - think yellow.png" alt="" width="373"><figcaption></figcaption></figure>
 
 </div>
 
@@ -21,7 +21,7 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/3 vectors - pair yellow.png" alt="" width="380"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 vectors - pair yellow.png" alt="" width="380"><figcaption></figcaption></figure>
 
 </div>
 
@@ -44,7 +44,7 @@ Choose one **ethical principle** to evaluate your model with:
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/3 vectors - share yellow.png" alt="" width="385"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 vectors - share yellow.png" alt="" width="385"><figcaption></figcaption></figure>
 
 </div>
 

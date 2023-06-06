@@ -109,11 +109,3 @@ Since distraction is a subjective experience that varies from person to person, 
 When humans label data to train the model, their subjective interpretation of distraction can unintentionally introduce bias. This bias can manifest in various ways, such as labeling certain instances as distractions while ignoring others, or misclassifying certain states as distractions when they are not.
 
 If the training data used to teach the model is unrepresentative or contains biased labels, <mark style="color:red;">the model can learn and perpetuate those biases.</mark> As a result, the model's predictions and classifications may be skewed, leading to unfair or discriminatory outcomes when applied in real-world scenarios.
-
-#### Limited Adaptability to New Data
-
-While SML models can adapt to some extent with new data, they may struggle when faced with significant changes or shifts in the data distribution. Models trained on specific data patterns may fail to generalize when exposed to novel or outlier instances, leading to decreased performance and potential inaccuracies.
-
-#### Data Limitations and Cost
-
-Acquiring and preparing large amounts of labeled data can be time-consuming and expensive, especially for domains with limited or scarce labeled examples. Moreover, the quality and representativeness of the labeled data are crucial, and inadequate or incomplete data can lead to suboptimal model performance.
