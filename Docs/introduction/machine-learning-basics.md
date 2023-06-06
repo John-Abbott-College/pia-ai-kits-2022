@@ -4,7 +4,7 @@ Machine learning (ML) is a branch of AI that enables a machine to learn without 
 
 <details>
 
-<summary>Read More</summary>
+<summary>Learn More</summary>
 
 ML involves the construction of mathematical models and algorithms that can analyze and interpret complex data, identify patterns, and make predictions or decisions based on the patterns discovered ([Ref](https://workshops.hackclub.com/teachable\_machine/)). Through iterative learning processes, machine learning algorithms can adapt and optimize their performance over time, enhancing their ability to handle new or unseen data ([Ref](https://workshops.hackclub.com/teachable\_machine/)).&#x20;
 
