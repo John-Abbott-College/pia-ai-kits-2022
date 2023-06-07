@@ -17,9 +17,9 @@ There are several approaches researchers are taking to mitigate or minimize bias
 
 <details>
 
-<summary>Learn More</summary>
+<summary>Learn More - The Intricacies of Each AI Ethical Principle + Challenges with making AI more ethical</summary>
 
-### The intricacies of each AI ethical principle
+### The Intricacies of Each AI Ethical Principle
 
 #### Responsibility &#x20;
 

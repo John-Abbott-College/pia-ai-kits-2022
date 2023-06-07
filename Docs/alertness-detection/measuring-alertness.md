@@ -18,7 +18,45 @@ Drivers may become **unalert** due to **distractions** in the driving environmen
 
 ### Types of Distractions
 
-<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><em><strong>Auditory</strong></em></td><td>Takes <strong>ears</strong> off road</td><td>Ex) listening to radio or passengers talk </td><td><a href="../.gitbook/assets/ear.png">ear.png</a></td></tr><tr><td><em><strong>Visual</strong></em></td><td>Takes <strong>eyes</strong> off road</td><td>Ex) looking at smartphone screen </td><td><a href="../.gitbook/assets/eye.png">eye.png</a></td></tr><tr><td><em><strong>Cognitive</strong></em></td><td>Takes <strong>mind</strong> off road</td><td>Ex) thinking about something other than driving</td><td><a href="../.gitbook/assets/human-brain.png">human-brain.png</a></td></tr><tr><td><em><strong>Biomechanical</strong></em></td><td>Takes <strong>hands</strong> off wheel</td><td>Ex) eating, adjusting dashboard controls</td><td><a href="../.gitbook/assets/open-hands.png">open-hands.png</a></td></tr></tbody></table>
+<div>
+
+<figure><img src="../.gitbook/assets/ear (1) (1).png" alt="" width="128"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/blank space.png" alt="" width="73"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/blank space.png" alt="" width="73"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/eye.png" alt="" width="128"><figcaption></figcaption></figure>
+
+</div>
+
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><em><strong>Auditory</strong></em></td><td>Takes <strong>ears</strong> off road</td><td>Ex) listening to radio or passengers talk </td><td></td></tr><tr><td><em><strong>Visual</strong></em></td><td>Takes <strong>eyes</strong> off road</td><td>Ex) looking at smartphone screen </td><td></td></tr></tbody></table>
+
+<div>
+
+<figure><img src="../.gitbook/assets/human-brain.png" alt="" width="128"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/blank space.png" alt="" width="73"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/blank space.png" alt="" width="73"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/open-hands.png" alt="" width="128"><figcaption></figcaption></figure>
+
+</div>
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><em><strong>Cognitive</strong></em></td><td>Takes <strong>mind</strong> off road</td><td>Ex) thinking about something other than driving</td></tr><tr><td><em><strong>Biomechanical</strong></em></td><td>Takes <strong>hands</strong> off wheel</td><td>Ex) eating, adjusting dashboard controls</td></tr></tbody></table>
 
 ### Distraction is subjective&#x20;
 
@@ -62,7 +100,7 @@ Data that are obtained indirectly from the driver by assessing their vehicle-rel
 
 <details>
 
-<summary>Learn More - Advantages &#x26; disadvantages of each data type</summary>
+<summary>Learn More - Advantages &#x26; Disadvantages of Each Data Type</summary>
 
 Each type of data has its advantages and disadvantages (Vismaya & Saritha, 2020). For instance, data collected from self-assessment questionnaires can offer valuable insights, but they are based on drivers’ personal opinions and the subjectivity of this measure can lessen its reliability (Shajari et al., 2022). Likewise, physiological data, although valuable to the study of distracted driving, are susceptible to interference from various factors such as drivers’ muscle movements (Shajari et al., 2022).&#x20;
 
@@ -74,9 +112,7 @@ Alternatively, a driver can experience cognitive distraction without it being ev
 
 ## Supervised Machine Learning (SML)
 
-SML models can be used to study alertness in driving.&#x20;
-
-| Steps for training SML model to identify unalert driving                                                                                              |
+| Steps for training an SML model to identify unalert driving                                                                                           |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <ol><li>Human experts review visual data of drivers and assess their level of distraction based on the behaviour they display while driving</li></ol> |
 | <ol start="2"><li>Labels are created to categorize the different levels of distraction</li></ol>                                                      |

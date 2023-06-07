@@ -4,7 +4,7 @@
 
 This activity is centered on a practical example of ethical use of AI - **Driver Alertness Detection (DAD) systems**.
 
-By following this guide, you will be able to: &#x20;
+At the end of this activity, you will be able to: &#x20;
 
 1. Describe what DAD systems are and how they function. &#x20;
 2. Create a basic machine learning model that can detect alertness.
@@ -16,12 +16,11 @@ By following this guide, you will be able to: &#x20;
 1. Basic programming.&#x20;
 2. A chrome-based browser such as Chrome, Edge or Brave. &#x20;
 3. For the optional part of the activity you will need:&#x20;
-
-* A microcontroller such as an Arduino.
-* A Micro-USB cable.
-* The laterst version of Arduino IDE installed.
-* An Active [Buzzer](https://www.circuitbasics.com/what-is-a-buzzer/).
-* A [Breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all) and jumper wires.
+   * A microcontroller such as an Arduino.
+   * A Micro-USB cable.
+   * The laterst version of Arduino IDE installed.
+   * An Active [Buzzer](https://www.circuitbasics.com/what-is-a-buzzer/).
+   * A [Breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all) and jumper wires.
 
 ### Navigation
 

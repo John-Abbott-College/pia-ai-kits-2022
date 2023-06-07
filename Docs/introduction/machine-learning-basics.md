@@ -37,9 +37,9 @@ The algorithm used metrics such as beauty, age, gender, body mass index, and lif
 
 <details>
 
-<summary>Learn More </summary>
+<summary>Learn More - 1. ML's Potential to do Good &#x26;  2. Bias &#x26; Manipulation in AI</summary>
 
-## ML's potential to do good
+### 1. ML's Potential to do Good
 
 ML involves the construction of mathematical models and algorithms that can analyze and interpret complex data, identify patterns, and make predictions or decisions based on the patterns discovered ([Ref](https://workshops.hackclub.com/teachable\_machine/)). Through iterative learning processes, machine learning algorithms can adapt and optimize their performance over time, enhancing their ability to handle new or unseen data ([Ref](https://workshops.hackclub.com/teachable\_machine/)).&#x20;
 
@@ -58,7 +58,7 @@ Machine learning offers a wide range of benefits across various domains, such as
 * **Improved customer service**: Machine learning-powered chatbots and virtual assistants can understand natural language queries, provide instant and personalized assistance, and enhance customer service experiences.&#x20;
 * **Scientific advancements**: Machine learning contributes to scientific research by enabling data analysis, pattern recognition, and simulations, accelerating discoveries and breakthroughs in various fields.&#x20;
 
-## &#x20;Bias & manipulation in AI&#x20;
+### 2. Bias & Manipulation in AI&#x20;
 
 _How Normal Am I?_ was made by Tijmen Schep - an artist, technology critic, and privacy advocate - with the aim of provoking people to question the reliability of facial recognition systems and AI more broadly ([Ref](https://starts.eu/article/detail/how-normal-am-i/)). &#x20;
 

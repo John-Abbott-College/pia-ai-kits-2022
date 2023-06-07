@@ -39,7 +39,7 @@ Given the impact of these variables, recalibration of the system becomes essenti
 
 <details>
 
-<summary>Learn More - Potential causes of accuracy issues in DAD systems </summary>
+<summary>Learn More - Potential Causes of Accuracy Issues in DAD systems </summary>
 
 Driver alertness detection (DAD) systems encounter accuracy challenges due to several factors. One reason is the limited variation in frame sequences for the classes of interest, such as looking forward, looking left, or looking right (Chai et al., 2023). Unlike different human activities like jumping or squatting, the variation in head movements is minimal, while other features, such as appearance and clothing, vary significantly across different drivers (Chai et al., 2023). This can lead to overfitting and poor generalization when using convolution-based models trained and tested on different drivers (Chai et al., 2023). &#x20;
 
