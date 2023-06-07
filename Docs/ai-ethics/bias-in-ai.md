@@ -14,7 +14,7 @@ Watch the below _Gender Shades_ video .&#x20;
 
 <details>
 
-<summary>Learn More</summary>
+<summary>Learn More - Bias in AI &#x26; issues with facial recognition systems</summary>
 
 **Bias in AI**&#x20;
 

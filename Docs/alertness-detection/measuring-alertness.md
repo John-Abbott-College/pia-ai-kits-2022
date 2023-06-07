@@ -62,9 +62,9 @@ Data that are obtained indirectly from the driver by assessing their vehicle-rel
 
 <details>
 
-<summary>Learn More</summary>
+<summary>Learn More - Advantages &#x26; disadvantages of each data type</summary>
 
-Each type of data has its advantages and limitations (Vismaya & Saritha, 2020). For instance, data collected from self-assessment questionnaires can offer valuable insights, but they are based on drivers’ personal opinions and the subjectivity of this measure can lessen its reliability (Shajari et al., 2022). Likewise, physiological data, although valuable to the study of distracted driving, are susceptible to interference from various factors such as drivers’ muscle movements (Shajari et al., 2022).&#x20;
+Each type of data has its advantages and disadvantages (Vismaya & Saritha, 2020). For instance, data collected from self-assessment questionnaires can offer valuable insights, but they are based on drivers’ personal opinions and the subjectivity of this measure can lessen its reliability (Shajari et al., 2022). Likewise, physiological data, although valuable to the study of distracted driving, are susceptible to interference from various factors such as drivers’ muscle movements (Shajari et al., 2022).&#x20;
 
 Distraction is a multifaceted state that cannot be fully captured by just one type of data (Vismaya & Saritha, 2020). Most activities that divert a driver’s attention from the road and the task of driving tend to involve multiple, if not all, types of distraction simultaneously (Ahangari et al., 2020). For instance, texting creates concurrent manual, visual, and cognitive distractions (Ahangari et al., 2020). To add to this complexity, the four types of data - performance, physiological, behavioral, and self-assessment - may not always align with each other. For example, a driver may feel fully focused on the road despite exhibiting behavioral signs of distraction. This discrepancy would result in a misalignment between the behavioral data collected from the driver and their self-assessment data. &#x20;
 
@@ -81,14 +81,6 @@ SML models can be used to study alertness in driving.&#x20;
 | <ol><li>Human experts review visual data of drivers and assess their level of distraction based on the behaviour they display while driving</li></ol> |
 | <ol start="2"><li>Labels are created to categorize the different levels of distraction</li></ol>                                                      |
 | <ol start="3"><li>These labels are then used as the ‘ground truth’ of distraction that the machine learning model can be based on</li></ol>           |
-
-<details>
-
-<summary>Learn More</summary>
-
-Most studies on distracted driving utilize supervised machine learning (SML) to analyze data (Liu et al, 2016). As part of this process, human experts review visual data of drivers and assess their level of distraction based on the behaviour they display while driving (Liu et al., 2016). Based on this initial review of the data, labels are created to categorize the different levels of distraction (Liu et al., 2016). These labels are then used as the ‘ground truth’ of distraction that the machine learning model can be based on (Liu et al., 2016). This is an example of SML in which models are trained under human supervision ([Ref](https://emeritus.org/blog/artificial-intelligence-and-machine-learning-classification-in-machine-learning/)).&#x20;
-
-</details>
 
 ### Benefits of SML
 

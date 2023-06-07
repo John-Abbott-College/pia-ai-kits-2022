@@ -1,10 +1,10 @@
 # Principles for Ethical AI
 
-## Ethical Principles
+## Principles for Ethical AI
 
 While there is no universal set of guidelines or regulations governing AI ethics, a consensus is beginning to emerge around the importance of the following principles: **responsibility, fairness, transparency, and freedom** (Jobin et al., 2019).&#x20;
 
-<table><thead><tr><th width="173">Principle</th><th>Description</th></tr></thead><tbody><tr><td>Responsibility</td><td>Encompasses the accountability and conscientiousness required from individuals and organizations involved in the development, deployment, and use of artificial intelligence systems. </td></tr><tr><td>Fairness</td><td>Encompasses the pursuit of equitable and impartial treatment of individuals and groups throughout the development, deployment, and utilization of AI systems.</td></tr><tr><td>Transparency</td><td>Refers to the degree to which AI systems' inner workings, decision-making processes, and underlying data are open, understandable, and accessible to users, stakeholders, and the general public.</td></tr><tr><td>Freedom</td><td><p>Refers to the protection and preservation of individual autonomy, privacy, and agency in the face of AI systems.</p><p>Involves ensuring that AI technologies do not unduly limit or infringe upon the fundamental rights and freedoms of individuals.</p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="173">Principle</th><th>Description</th></tr></thead><tbody><tr><td><strong>Responsibility</strong></td><td>Encompasses the accountability and conscientiousness required from individuals and organizations involved in the development, deployment, and use of artificial intelligence systems. </td></tr><tr><td><strong>Fairness</strong></td><td>Encompasses the pursuit of equitable and impartial treatment of individuals and groups throughout the development, deployment, and utilization of AI systems.</td></tr><tr><td><strong>Transparency</strong></td><td>Refers to the degree to which AI systems' inner workings, decision-making processes, and underlying data are open, understandable, and accessible to users, stakeholders, and the general public.</td></tr><tr><td><strong>Freedom</strong></td><td>Refers to the protection and preservation of individual autonomy, privacy, and agency in the face of AI systems.</td></tr></tbody></table>
 
 ## Applying the Principles
 
@@ -17,45 +17,44 @@ There are several approaches researchers are taking to mitigate or minimize bias
 
 <details>
 
-<summary>Learn More</summary>
+<summary>Learn More - The intricacies of each AI ethical principle</summary>
 
-* Freedom refers to the protection and preservation of individual autonomy, privacy, and agency in the face of AI systems. It involves ensuring that AI technologies do not unduly limit or infringe upon the fundamental rights and freedoms of individuals.&#x20;
-* Individuals must have:&#x20;
-* Ability to make informed choices&#x20;
-* Control over their personal data&#x20;
-* Protection against unwarranted surveillance&#x20;
-* Protection against manipulation by AI systems&#x20;
+#### Responsibility &#x20;
 
-Freedom &#x20;
-
-* Transparency, in the context of AI ethics, refers to the degree to which AI systems' inner workings, decision-making processes, and underlying data are open, understandable, and accessible to users, stakeholders, and the general public. &#x20;
-* It involves ensuring that AI systems are not overly opaque or "black-boxed," but instead promote clarity and accountability by providing explanations, justifications, and insights into how they operate, how they arrive at decisions, and how they handle and process data. &#x20;
-* Efforts to enhance transparency involve endeavors aimed at improving explainability, auditability, or other forms of communication and disclosure (Jobin et al., 2019) &#x20;
-* Explainability pertains to the assurance that decisions made by AI systems, along with the data influencing those decisions, can be clarified to end-users and other relevant parties using language that is not overly technical. (Fat/ML) &#x20;
-* Auditability encompasses the provision of opportunities for external third parties to comprehensively understand, thoroughly investigate, and critically assess AI systems. Auditability can be supported through permissive terms of use, detailed documentation, and disclosure of information that enables monitoring, checking, and criticism. (Fat/ML) &#x20;
-
-Transparency &#x20;
-
-* Fairness encompasses the pursuit of equitable and impartial treatment of individuals and groups throughout the development, deployment, and utilization of AI systems. &#x20;
-* To accomplish this, it is crucial to address biases inherent in both the data employed for training AI systems and the systems themselves. &#x20;
-* By mitigating these biases, it is possible to prevent AI applications from yielding unjust or discriminatory consequences that hinge on factors like race, gender, ethnicity, or socioeconomic status.&#x20;
-
-Fairness &#x20;
-
-* Responsibility as a principle of AI ethics encompasses the accountability and conscientiousness required from individuals and organizations involved in the development, deployment, and use of artificial intelligence systems. It means recognizing and accepting responsibility for the actions and consequences arising from the use of AI systems. This involves being answerable for the decisions made, the data used, and the outcomes produced by AI technologies.&#x20;
+* Responsibility means recognizing and accepting responsibility for the actions and consequences arising from the use of AI systems. This involves being answerable for the decisions made, the data used, and the outcomes produced by AI technologies.&#x20;
 * There is ongoing debate surrounding ethical principles in AI due to the absence of definitive guidelines, with particular emphasis on the contentious issue of assigning responsibility for the outcomes of AI. &#x20;
 * Various stakeholders have been identified as responsible and liable for the actions and choices of AI, including AI developers, designers, institutions, and the industry (Jobin et al., 2019). Additionally, there is disagreement regarding whether AI should be held accountable in a manner resembling human accountability, or if humans should always bear the ultimate responsibility for technological artifacts (Jobin et al., 2019). &#x20;
 
-Responsibility &#x20;
+#### Fairness &#x20;
 
-&#x20;
+* To ensure fairness in AI systems, it is crucial to address biases inherent in both the data employed for training AI systems and the systems themselves. &#x20;
+* By mitigating these biases, it is possible to prevent AI applications from yielding unjust or discriminatory consequences that hinge on factors like race, gender, ethnicity, or socioeconomic status.&#x20;
 
-With the growing prevalence of AI in various domains, it is of utmost importance to eliminate biases associated with gender, race, ethnicity, and other sensitive factors ([Ref](https://www.csa.iisc.ac.in/fate.htm)). To tackle this issue, a range of ethical principles has been formulated to offer guidance for the development and deployment of AI systems, with the objective of fostering fairness and preventing discrimination (Jobin et al., 2019). While there is no universal set of guidelines or regulations governing AI ethics, a consensus is beginning to emerge around the importance of the following principles: responsibility, fairness, transparency, and freedom (Jobin et al., 2019). &#x20;
+#### Transparency &#x20;
 
+* Transparency, in the context of AI ethics, refers to the degree to which AI systems' inner workings, decision-making processes, and underlying data are open, understandable, and accessible to users, stakeholders, and the general public. &#x20;
+  * It involves ensuring that AI systems are not overly opaque or "black-boxed," but instead promote clarity and accountability by providing explanations, justifications, and insights into how they operate, how they arrive at decisions, and how they handle and process data. &#x20;
+* Efforts to enhance transparency involve endeavors aimed at improving explainability, auditability, or other forms of communication and disclosure (Jobin et al., 2019) &#x20;
+  * **Explainability** pertains to the assurance that decisions made by AI systems, along with the data influencing those decisions, can be clarified to end-users and other relevant parties using language that is not overly technical. (Fat/ML) &#x20;
+  * **Auditability** encompasses the provision of opportunities for external third parties to comprehensively understand, thoroughly investigate, and critically assess AI systems. Auditability can be supported through permissive terms of use, detailed documentation, and disclosure of information that enables monitoring, checking, and criticism. (Fat/ML) &#x20;
 
+#### Freedom &#x20;
 
-By acknowledging the potential biases and ethical considerations associated with AI, we can strive to develop AI systems that are fair, accountable, and uphold ethical standards, while promoting inclusivity. However, achieving these goals can be challenging due to the complexity of AI systems, which often involve numerous variables that make comprehensive understanding difficult. &#x20;
+* To properly safeguard freedom in the face of AI systems, it is essential to ensure that AI technologies do not unduly limit or infringe upon the fundamental rights and freedoms of individuals.&#x20;
+* To be free, individuals must have:&#x20;
+  * Ability to make informed choices&#x20;
+  * Control over their personal data&#x20;
+  * Protection against unwarranted surveillance&#x20;
+  * Protection against manipulation by AI systems&#x20;
 
-It is important to note that there is no one set of rules that have been agreed upon to guide the development and deployment of ethical AI. Ethical questions in AI are still subject to ongoing debates and discussions that are expected to persist for years to come (Borenstein et al., 2021). Despite these challenges, it is essential to make continuous efforts in creating more ethical AI systems.
+</details>
+
+<details>
+
+<summary>Learn More - Challenges with making AI more ethical</summary>
+
+By acknowledging the potential biases and ethical considerations associated with AI, we can strive to develop AI systems that are fair, accountable, and uphold ethical standards, while promoting inclusivity. However, achieving these goals can be challenging due to the **complexity of AI systems**, which often involve numerous variables that make comprehensive understanding difficult. &#x20;
+
+It is important to note that there is no one set of rules that have been agreed upon to guide the development and deployment of ethical AI. **Ethical questions in AI are still subject to ongoing debates and discussions that are expected to persist for years to come** (Borenstein et al., 2021). Despite these challenges, it is essential to make continuous efforts in creating more ethical AI systems.&#x20;
 
 </details>

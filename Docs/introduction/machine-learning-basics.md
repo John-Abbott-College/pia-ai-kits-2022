@@ -2,9 +2,29 @@
 
 Machine learning (ML) is a branch of AI that enables a machine to learn without being explicitly programmed.
 
+While machine learning has demonstrated remarkable potential, it is not without its challenges and concerns.
+
+### _How Normal Am I?_
+
+Follow this [<mark style="background-color:blue;">**link**</mark> ](https://www.hownormalami.eu/)to take part in an interactive documentary that demonstrates how facial recognition algorithms are used to judge people ([Ref](https://www.project-sherpa.eu/how-normal-am-i-nominated-for-best-eu-website-of-the-year/)). &#x20;
+
+{% hint style="info" %}
+<mark style="color:blue;">The AI models used in</mark> <mark style="color:blue;"></mark>_<mark style="color:blue;">How Normal Am I?</mark>_ <mark style="color:blue;"></mark><mark style="color:blue;">have been modified to operate within a web browser (</mark>[<mark style="color:blue;">Ref</mark>](https://starts.eu/article/detail/how-normal-am-i/)<mark style="color:blue;">). All data analysis occurs locally on your device, ensuring that no personal information is transmitted to the cloud (</mark>[<mark style="color:blue;">Ref</mark>](https://starts.eu/article/detail/how-normal-am-i/)<mark style="color:blue;">).</mark>
+{% endhint %}
+
+### Debrief
+
+Take a moment to reflect and respond to the following questions. Share your responses [<mark style="background-color:blue;">**here**</mark>](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=0).&#x20;
+
+* <mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you?</mark>
+  * <mark style="color:purple;">How did this influence your perception of the reliability of the algorithm?</mark>
+* <mark style="color:purple;">The algorithm used metrics such as beauty, age, gender, body mass index, and life expectancy to measure normality. Which metrics can be</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**objectively**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">measured?</mark>
+  * <mark style="color:purple;">Are there metrics that are too</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**subjective**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">to measure?</mark>
+* <mark style="color:purple;">How do you feel about the idea of quantifying and categorizing individuals based on these metrics?</mark>
+
 <details>
 
-<summary>Learn More</summary>
+<summary>Learn More - ML's potential to do good</summary>
 
 ML involves the construction of mathematical models and algorithms that can analyze and interpret complex data, identify patterns, and make predictions or decisions based on the patterns discovered ([Ref](https://workshops.hackclub.com/teachable\_machine/)). Through iterative learning processes, machine learning algorithms can adapt and optimize their performance over time, enhancing their ability to handle new or unseen data ([Ref](https://workshops.hackclub.com/teachable\_machine/)).&#x20;
 
@@ -25,19 +45,9 @@ Machine learning offers a wide range of benefits across various domains, such as
 
 </details>
 
-While machine learning has demonstrated remarkable potential, it is not without its challenges and concerns.
-
-### _How Normal Am I?_
-
-Follow this [<mark style="background-color:blue;">**link**</mark> ](https://www.hownormalami.eu/)to take part in an interactive documentary that demonstrates how facial recognition algorithms are used to judge people ([Ref](https://www.project-sherpa.eu/how-normal-am-i-nominated-for-best-eu-website-of-the-year/)). &#x20;
-
-{% hint style="info" %}
-<mark style="color:blue;">The AI models used in</mark> <mark style="color:blue;"></mark>_<mark style="color:blue;">How Normal Am I?</mark>_ <mark style="color:blue;"></mark><mark style="color:blue;">have been modified to operate within a web browser (</mark>[<mark style="color:blue;">Ref</mark>](https://starts.eu/article/detail/how-normal-am-i/)<mark style="color:blue;">). All data analysis occurs locally on your device, ensuring that no personal information is transmitted to the cloud (</mark>[<mark style="color:blue;">Ref</mark>](https://starts.eu/article/detail/how-normal-am-i/)<mark style="color:blue;">).</mark>
-{% endhint %}
-
 <details>
 
-<summary>Read More</summary>
+<summary>Learn More - Bias &#x26; manipulation in AI </summary>
 
 _How Normal Am I?_ was made by Tijmen Schep - an artist, technology critic, and privacy advocate - with the aim of provoking people to question the reliability of facial recognition systems and AI more broadly ([Ref](https://starts.eu/article/detail/how-normal-am-i/)). &#x20;
 
@@ -62,32 +72,3 @@ Facial recognition algorithms are not only susceptible to bias but also to manip
 The potential for inaccurate predications has broader implications. Facial recognition algorithms have been known to exhibit high rates of false positives and false negatives, leading to wrongful identification and potential harm to innocent individuals. &#x20;
 
 </details>
-
-### Debrief
-
-Take a moment to reflect and respond to the following questions. Share your responses [<mark style="background-color:blue;">**here**</mark>](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=0).&#x20;
-
-{% tabs %}
-{% tab title="Questions 1" %}
-<mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you?</mark>
-{% endtab %}
-
-{% tab title="Questions 2" %}
-<mark style="color:purple;">How did this influence your perception of the reliability of the algorithm?</mark>
-
-
-{% endtab %}
-
-{% tab title="Question 3" %}
-<mark style="color:purple;">The algorithm used metrics such as beauty, age, gender, body mass index, and life expectancy to measure normality. Which metrics can be</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**objectively**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">measured?</mark>
-
-<mark style="color:purple;">Are there metrics that are too</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**subjective**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">to measure?</mark>
-
-
-{% endtab %}
-
-{% tab title="Question 4" %}
-<mark style="color:purple;">How do you feel about the idea of quantifying and categorizing individuals based on these metrics?</mark>
-{% endtab %}
-{% endtabs %}
-

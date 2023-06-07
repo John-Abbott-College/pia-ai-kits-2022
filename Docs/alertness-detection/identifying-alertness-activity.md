@@ -17,10 +17,6 @@ In this activity, you’ll work on identifying characteristics related to the st
 * <mark style="color:purple;">How do we recognize</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**alertness**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">in ourselves and others?</mark>&#x20;
 * <mark style="color:purple;">What cues or characteristics indicate that a person is</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**unalert**</mark><mark style="color:purple;">?</mark>
 
-## 2. Ink
-
-Jot down your ideas.
-
 ## 3. Pair
 
 <div align="left">
@@ -29,7 +25,7 @@ Jot down your ideas.
 
 </div>
 
-#### With a partner, discuss t<mark style="color:purple;">he characteristics you came up with.</mark>&#x20;
+#### With a partner, discuss the characteristics you came up with.&#x20;
 
 ## 3. Share
 
