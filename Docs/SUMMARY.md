@@ -2,7 +2,7 @@
 
 ## Introduction
 
-* [Start Here!](README.md)
+* [(Start Here!) Intro to Ethical Machine Learning through a Practical Example](README.md)
 * [Machine Learning Basics](introduction/machine-learning-basics.md)
 
 ## Alertness Detection
