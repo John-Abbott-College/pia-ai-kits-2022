@@ -28,7 +28,7 @@ Add photos to each class.  &#x20;
 Train the model and test it.&#x20;
 
 {% hint style="info" %}
-Training happens on the browser.
+Training happens on the browser
 {% endhint %}
 
 ### Step 5

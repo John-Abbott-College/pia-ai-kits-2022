@@ -112,7 +112,7 @@ Go to Tools > Port > Select Port &#x20;
 
 ### Step 8
 
-Upload the code, if the buzzer is beeping your connections are valid👏 &#x20;
+Upload the code, if the buzzer is beeping your connections are valid. &#x20;
 
 <div data-full-width="true">
 

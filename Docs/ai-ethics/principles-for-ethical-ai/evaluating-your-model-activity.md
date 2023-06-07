@@ -40,4 +40,4 @@ Answer the questions related to the ethical principle you have chosen to focus o
 
 ## Present
 
-Add your responses [here](https://jamboard.google.com/d/13uDPBM8rb5NPygaDGmgjRU5\_WsCCSKAdv1gFqhgRP7k/viewer) to share it with the rest of your class.
+Add your responses [here](https://jamboard.google.com/d/13uDPBM8rb5NPygaDGmgjRU5\_WsCCSKAdv1gFqhgRP7k/edit?usp=sharing) to share it with the rest of your class.
