@@ -35,7 +35,7 @@ In this activity, you’ll work on identifying characteristics related to the st
 
 </div>
 
-#### Share your range of characteristics [<mark style="color:blue;background-color:blue;">**here**</mark>](https://jamboard.google.com/d/1CPkX6OPLH\_oFw2nFVqvJ21QUu1Vuk1l9SvmdUHd26xA/edit?usp=sharing).&#x20;
+#### Share your range of characteristics [**here**](https://jamboard.google.com/d/1CPkX6OPLH\_oFw2nFVqvJ21QUu1Vuk1l9SvmdUHd26xA/edit?usp=sharing).&#x20;
 
 ##
 

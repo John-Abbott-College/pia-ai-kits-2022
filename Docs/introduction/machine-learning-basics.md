@@ -6,21 +6,34 @@ While machine learning has demonstrated remarkable potential, it is not without 
 
 ### _How Normal Am I?_
 
-Follow this [<mark style="background-color:blue;">**link**</mark> ](https://www.hownormalami.eu/)to take part in an interactive documentary that demonstrates how facial recognition algorithms are used to judge people ([Ref](https://www.project-sherpa.eu/how-normal-am-i-nominated-for-best-eu-website-of-the-year/)). &#x20;
+Follow this [link ](https://www.hownormalami.eu/)to take part in an interactive documentary that demonstrates how facial recognition algorithms are used to judge people ([Ref](https://www.project-sherpa.eu/how-normal-am-i-nominated-for-best-eu-website-of-the-year/)). &#x20;
 
 {% hint style="info" %}
-<mark style="color:blue;">The AI models used in</mark> <mark style="color:blue;"></mark>_<mark style="color:blue;">How Normal Am I?</mark>_ <mark style="color:blue;"></mark><mark style="color:blue;">have been modified to operate within a web browser (</mark>[<mark style="color:blue;">Ref</mark>](https://starts.eu/article/detail/how-normal-am-i/)<mark style="color:blue;">). All data analysis occurs locally on your device, ensuring that no personal information is transmitted to the cloud (</mark>[<mark style="color:blue;">Ref</mark>](https://starts.eu/article/detail/how-normal-am-i/)<mark style="color:blue;">).</mark>
+The AI models used in _How Normal Am I?_ have been modified to operate within a web browser ([Ref](https://starts.eu/article/detail/how-normal-am-i/)). All data analysis occurs locally on your device, ensuring that no personal information is transmitted to the cloud ([Ref](https://starts.eu/article/detail/how-normal-am-i/)).
 {% endhint %}
 
 ### Debrief
 
-Take a moment to reflect and respond to the following questions. Share your responses [<mark style="background-color:blue;">**here**</mark>](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=0).&#x20;
+Take a moment to reflect and respond to the following questions. Share your responses [he<mark style="color:blue;">re</mark>](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=3)<mark style="color:blue;">.</mark>&#x20;
 
-* <mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you?</mark>
-  * <mark style="color:purple;">How did this influence your perception of the reliability of the algorithm?</mark>
-* <mark style="color:purple;">The algorithm used metrics such as beauty, age, gender, body mass index, and life expectancy to measure normality. Which metrics can be</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**objectively**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">measured?</mark>
-  * <mark style="color:purple;">Are there metrics that are too</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**subjective**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">to measure?</mark>
-* <mark style="color:purple;">How do you feel about the idea of quantifying and categorizing individuals based on these metrics?</mark>
+{% tabs %}
+{% tab title="Q1" %}
+<mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you?</mark>
+
+<mark style="color:purple;">How did this influence your perception of the reliability of the algorithm?</mark>
+{% endtab %}
+
+{% tab title="Q2" %}
+The algorithm used metrics such as beauty, age, gender, body mass index, and life expectancy to measure normality.&#x20;
+
+* <mark style="color:purple;">Which metrics can be</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**objectively**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">measured?</mark>
+* <mark style="color:purple;">Are there metrics that are too</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**subjective**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">to measure?</mark>
+{% endtab %}
+
+{% tab title="Q3" %}
+<mark style="color:purple;">How do you feel about the idea of quantifying and categorizing individuals based on these metrics?</mark>
+{% endtab %}
+{% endtabs %}
 
 <details>
 

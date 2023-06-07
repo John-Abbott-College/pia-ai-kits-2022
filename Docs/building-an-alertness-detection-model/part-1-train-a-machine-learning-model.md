@@ -18,9 +18,9 @@ Add the following classes:&#x20;
 Add photos to each class.  &#x20;
 
 {% hint style="info" %}
-* <mark style="color:blue;">You can upload existing photos or take pictures using a webcam.</mark> &#x20;
-* <mark style="color:blue;">If you feel comfortable, upload your data to your class repository. Your teacher will use this data and combine it with other data to make a more accurate model.</mark>&#x20;
-* <mark style="color:blue;">To add to your model, try to find datasets on Kaggle or roboflow. There are open datasets available, such as the</mark> [<mark style="color:blue;">Driver Monitoring Dataset</mark>](https://dmd.vicomtech.org/#about)<mark style="color:blue;">, for you to use.</mark>&#x20;
+* You can upload existing photos or take pictures using a webcam. &#x20;
+* If you feel comfortable, upload your data to your class repository. Your teacher will use this data and combine it with other data to make a more accurate model.&#x20;
+* To add to your model, try to find datasets on Kaggle or roboflow. There are open datasets available, such as the [Driver Monitoring Dataset](https://dmd.vicomtech.org/#about), for you to use.&#x20;
 {% endhint %}
 
 ### Step 4
@@ -28,7 +28,7 @@ Add photos to each class.  &#x20;
 Train the model and test it.&#x20;
 
 {% hint style="info" %}
-<mark style="color:blue;">Training happens on the browser</mark>
+Training happens on the browser.
 {% endhint %}
 
 ### Step 5

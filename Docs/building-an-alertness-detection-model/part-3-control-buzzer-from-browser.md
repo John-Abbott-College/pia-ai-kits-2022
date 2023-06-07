@@ -16,7 +16,7 @@ Add code in the `gotResults(err, results)` function so that the data variable is
 Example: If classification is open, set it to `1`. If classification is closed, set it to `2`… &#x20;
 
 {% hint style="info" %}
-<mark style="color:blue;">These values will be read from the microcontroller in the next step and perform some action.</mark>
+These values will be read from the microcontroller in the next step and perform some action.
 {% endhint %}
 
 ### Step 2

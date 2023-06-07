@@ -33,4 +33,4 @@ Then, choose one **ethical principle** to evaluate your model with:
 
 ## Present
 
-Add your responses [<mark style="color:blue;background-color:blue;">**here**</mark>](https://jamboard.google.com/d/13uDPBM8rb5NPygaDGmgjRU5\_WsCCSKAdv1gFqhgRP7k/edit?usp=sharing) to share it with the rest of your class.
+Add your responses [here](https://jamboard.google.com/d/13uDPBM8rb5NPygaDGmgjRU5\_WsCCSKAdv1gFqhgRP7k/edit?usp=sharing) to share it with the rest of your class.
