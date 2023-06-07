@@ -8,7 +8,7 @@
 
 _Gender Shades_, a groundbreaking study conducted by MIT researcher Joy Buolamwini, uncovered bias in facial recognition algorithms.
 
-Select the button below to play _Gender Shades_.&#x20;
+Watch the below _Gender Shades_ video .&#x20;
 
 {% embed url="https://www.youtube.com/watch?embeds_referring_euri=http://gendershades.org/&feature=emb_logo&source_ve_path=Mjg2NjY&v=TWWsW1w-BVo" %}
 
@@ -25,16 +25,6 @@ If the training data is not diverse and balanced, the system may learn to make u
 These biases present ethical concerns as AI systems can reinforce and amplify existing biases, and their decision-making process may be difficult to understand or question due to their complex nature (Shaw, 2019). Despite the superior processing capabilities of AI, it cannot be assumed to always be fair and unbiased since it is created by fallible humans prone to bias and judgment (Bossman, 2016).&#x20;
 
 **Facial Recognition Systems**&#x20;
-
-Commonly used facial recognition systems have been shown to over-represent certain populations, leading to better performance for them while neglecting others ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit)). This imbalance in training data, known as "selection bias," particularly affects dark-skinned women ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit)).&#x20;
-
-Unfortunately, little progress has been made in accurately recognizing facial features of black women since Buolamwini's investigation in 2015 (Babusi, 2020). Recent studies have shown that general application facial recognition systems in the US misidentify people of color at significantly higher rates than white individuals (Babusi, 2020). &#x20;
-
-</details>
-
-<details>
-
-<summary>Learn More</summary>
 
 Commonly used facial recognition systems have been shown to over-represent certain populations, leading to better performance for them while neglecting others ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit)). This imbalance in training data, known as "selection bias," particularly affects dark-skinned women ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit)).&#x20;
 

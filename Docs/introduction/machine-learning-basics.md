@@ -20,7 +20,7 @@ Machine learning offers a wide range of benefits across various domains, such as
 * **Advanced healthcare diagnostics**: Machine learning aids in early disease detection and diagnosis by analyzing medical records, imaging data, and genetic information, enabling timely intervention and improved patient outcomes.&#x20;
 * **Autonomous systems**: Machine learning plays a crucial role in autonomous vehicles, enabling object recognition, behavior prediction, and real-time decision-making for enhanced safety and efficiency.&#x20;
 * **Predictive maintenance**: Machine learning can analyze sensor data to predict equipment failures and maintenance needs, helping businesses proactively address issues and minimize downtime.&#x20;
-* **Improved customer service**: Machine learning-powered chatbots and virtual assistants can understand natural language queries, providing instant and personalized assistance, enhancing customer service experiences.&#x20;
+* **Improved customer service**: Machine learning-powered chatbots and virtual assistants can understand natural language queries, provide instant and personalized assistance, and enhance customer service experiences.&#x20;
 * **Scientific advancements**: Machine learning contributes to scientific research by enabling data analysis, pattern recognition, and simulations, accelerating discoveries and breakthroughs in various fields.&#x20;
 
 </details>
@@ -45,7 +45,7 @@ The documentary uses a facial recognition algorithm to judge a person’s beauty
 
 _“If you have a low score, it might just be because the judgment of these algorithms is so dependent on how they were trained” -_ Tijmen Schep ([Ref](https://www.techjuice.pk/this-eu-funded-ai-judges-your-face-and-tells-you-how-normal-you-are/)) &#x20;
 
-&#x20;**Bias** &#x20;
+**Bias** &#x20;
 
 The algorithms in the documentary classify and rate individuals based on the labelling of their training samples. Due to the manual labeling of training samples by individuals, the algorithms rely on subjective standards, making them susceptible to bias. &#x20;
 
@@ -65,18 +65,29 @@ The potential for inaccurate predications has broader implications. Facial recog
 
 ### Debrief
 
-Take a moment to reflect and respond to the following questions. Share your responses [<mark style="background-color:blue;">**here**</mark>](http://here/).&#x20;
+Take a moment to reflect and respond to the following questions. Share your responses [<mark style="background-color:blue;">**here**</mark>](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=0).&#x20;
 
 {% tabs %}
 {% tab title="Questions 1" %}
-* <mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you?</mark>
-* <mark style="color:purple;">How did this influence your perception of the reliability of the algorithm?</mark>
+<mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you?</mark>
 {% endtab %}
 
 {% tab title="Questions 2" %}
+<mark style="color:purple;">How did this influence your perception of the reliability of the algorithm?</mark>
+
+
+{% endtab %}
+
+{% tab title="Question 3" %}
 <mark style="color:purple;">The algorithm used metrics such as beauty, age, gender, body mass index, and life expectancy to measure normality. Which metrics can be</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**objectively**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">measured?</mark>
 
-* <mark style="color:purple;">Are there metrics that are too</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**subjective**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">to measure?</mark>
-* <mark style="color:purple;">How do you feel about the idea of quantifying and categorizing individuals based on these metrics?</mark>
+<mark style="color:purple;">Are there metrics that are too</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**subjective**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">to measure?</mark>
+
+
+{% endtab %}
+
+{% tab title="Question 4" %}
+<mark style="color:purple;">How do you feel about the idea of quantifying and categorizing individuals based on these metrics?</mark>
 {% endtab %}
 {% endtabs %}
+
