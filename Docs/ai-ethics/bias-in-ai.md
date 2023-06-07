@@ -8,7 +8,7 @@
 
 _Gender Shades_, a groundbreaking study conducted by MIT researcher Joy Buolamwini, uncovered bias in facial recognition algorithms.
 
-Watch the below _Gender Shades_ video .&#x20;
+Watch the below _Gender Shades_ video.&#x20;
 
 {% embed url="https://www.youtube.com/watch?embeds_referring_euri=http://gendershades.org/&feature=emb_logo&source_ve_path=Mjg2NjY&v=TWWsW1w-BVo" %}
 
