@@ -17,7 +17,9 @@ There are several approaches researchers are taking to mitigate or minimize bias
 
 <details>
 
-<summary>Learn More - The intricacies of each AI ethical principle</summary>
+<summary>Learn More</summary>
+
+### The intricacies of each AI ethical principle
 
 #### Responsibility &#x20;
 
@@ -47,11 +49,7 @@ There are several approaches researchers are taking to mitigate or minimize bias
   * Protection against unwarranted surveillance&#x20;
   * Protection against manipulation by AI systems&#x20;
 
-</details>
-
-<details>
-
-<summary>Learn More - Challenges with making AI more ethical</summary>
+### Challenges with making AI more ethical
 
 By acknowledging the potential biases and ethical considerations associated with AI, we can strive to develop AI systems that are fair, accountable, and uphold ethical standards, while promoting inclusivity. However, achieving these goals can be challenging due to the **complexity of AI systems**, which often involve numerous variables that make comprehensive understanding difficult. &#x20;
 
