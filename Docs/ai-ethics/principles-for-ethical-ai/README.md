@@ -2,7 +2,7 @@
 
 ## Principles for Ethical AI
 
-While there is no universal set of guidelines or regulations governing AI ethics, a consensus is beginning to emerge around the importance of the following principles: **responsibility, fairness, transparency, and freedom** (Jobin et al., 2019).&#x20;
+While there is no universal set of guidelines or regulations governing AI, a consensus is beginning to emerge around the importance of the following principles: **responsibility, fairness, transparency, and freedom** (Jobin et al., 2019).&#x20;
 
 <table data-header-hidden><thead><tr><th width="173">Principle</th><th>Description</th></tr></thead><tbody><tr><td><strong>Responsibility</strong></td><td>Encompasses the accountability and conscientiousness required from individuals and organizations involved in the development, deployment, and use of artificial intelligence systems. </td></tr><tr><td><strong>Fairness</strong></td><td>Encompasses the pursuit of equitable and impartial treatment of individuals and groups throughout the development, deployment, and utilization of AI systems.</td></tr><tr><td><strong>Transparency</strong></td><td>Refers to the degree to which AI systems' inner workings, decision-making processes, and underlying data are open, understandable, and accessible to users, stakeholders, and the general public.</td></tr><tr><td><strong>Freedom</strong></td><td>Refers to the protection and preservation of individual autonomy, privacy, and agency in the face of AI systems.</td></tr></tbody></table>
 
