@@ -12,7 +12,7 @@ In this activity, you’ll work on identifying characteristics related to the st
 
 </div>
 
-#### On your own, consider: &#x20;
+#### On your own, write down answers to the following questions: &#x20;
 
 * <mark style="color:purple;">How do we recognize</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**alertness**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">in ourselves and others?</mark>&#x20;
 * <mark style="color:purple;">What cues or characteristics indicate that a person is</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**unalert**</mark><mark style="color:purple;">?</mark>

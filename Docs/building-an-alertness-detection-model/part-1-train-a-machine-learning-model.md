@@ -10,8 +10,8 @@ Go to the[ ](https://teachablemachine.withgoogle.com/train)[Teachable Machine](h
 
 Add the following classes:&#x20;
 
-1. Head up (looking at the road)&#x20;
-2. Head down (looking at a phone, for example)&#x20;
+1. Heads-up (looking at the road)&#x20;
+2. Heads-down (looking at a phone, for example)&#x20;
 
 ### Step 3
 
@@ -35,7 +35,7 @@ Training happens on the browser
 
 ### Step 5
 
-Find an additional person to test the model on.&#x20;
+Find another student in class to test the model on.&#x20;
 
 ### Step 6
 

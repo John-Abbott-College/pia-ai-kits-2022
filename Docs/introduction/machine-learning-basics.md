@@ -24,18 +24,7 @@ Take a moment to reflect and respond to the following questions. Share your resp
 {% endtab %}
 
 {% tab title="Q2" %}
-<mark style="color:purple;">How did this influence your perception of the reliability of the algorithm?</mark>
-{% endtab %}
-
-{% tab title="Q3" %}
-The algorithm used metrics such as beauty, age, gender, body mass index, and life expectancy to measure normality.&#x20;
-
-* <mark style="color:purple;">Which metrics can be</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**objectively**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">measured?</mark>
-* <mark style="color:purple;">Are there metrics that are too</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**subjective**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">to measure?</mark>
-{% endtab %}
-
-{% tab title="Q4" %}
-<mark style="color:purple;">How do you feel about the idea of quantifying and categorizing individuals based on these metrics?</mark>
+<mark style="color:purple;">The algorithm used metrics such as beauty, age, gender, body mass index, and life expectancy to measure normality. Classify the metrics as objective or subjective.</mark>
 {% endtab %}
 {% endtabs %}
 

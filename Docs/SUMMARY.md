@@ -2,7 +2,7 @@
 
 ## Introduction
 
-* [Intro to Ethical Machine Learning: Driver Alertness](README.md)
+* [Intro to Ethical Machine Learning: Driver Distraction](README.md)
 * [Machine Learning Basics](introduction/machine-learning-basics.md)
 
 ## Alertness Detection

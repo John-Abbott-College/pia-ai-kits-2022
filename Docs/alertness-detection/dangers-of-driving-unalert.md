@@ -1,11 +1,9 @@
 # Dangers of Driving Unalert
 
-### Unalert driving refers to:&#x20;
+### Distracted driving refers to:&#x20;
 
 * When a driver's attention is diverted from the road and the tasks necessary for safe driving&#x20;
-* A range of incidences, such as:
-
-&#x20;         A moment of insufficient attention  _...........  to   ..........._ A complete lack of attention
+* A wide range of diviations from insufficient attention  _...........  to   ..........._ a complete lack of attention
 
 <div>
 

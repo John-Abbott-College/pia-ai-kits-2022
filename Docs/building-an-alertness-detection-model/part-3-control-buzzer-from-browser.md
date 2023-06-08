@@ -96,9 +96,9 @@ void setup() {
 void loop() {  
   // put your main code here, to run repeatedly:  
   digitalWrite(buzzer, HIGH);  
-  delay(1000); // Wait for 1000 millisecond(s)  
+  delay(2000); // Wait for 1000 millisecond(s)  
   digitalWrite(buzzer, LOW);  
-  delay(1000); // Wait for 1000 millisecond(s)  
+  delay(2000); // Wait for 1000 millisecond(s)  
 }  
 ```
 
