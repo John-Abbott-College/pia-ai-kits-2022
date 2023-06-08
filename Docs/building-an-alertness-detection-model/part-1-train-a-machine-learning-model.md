@@ -18,9 +18,11 @@ Add the following classes:&#x20;
 Add photos to each class.  &#x20;
 
 {% hint style="info" %}
-* You can upload existing photos or take pictures using a webcam. &#x20;
-* If you feel comfortable, upload your data to your class repository. Your teacher will use this data and combine it with other data to make a more accurate model.&#x20;
-* To add to your model, try to find datasets on Kaggle or roboflow. There are open datasets available, such as the [Driver Monitoring Dataset](https://dmd.vicomtech.org/#about), for you to use.&#x20;
+You can upload existing photos or take pictures using a webcam. &#x20;
+
+If you feel comfortable, upload your data to your class repository. Your teacher will use this data and combine it with other data to make a more accurate model.&#x20;
+
+To add to your model, try to find datasets on Kaggle or roboflow. There are open datasets available, such as the [Driver Monitoring Dataset](https://dmd.vicomtech.org/#about), for you to use.&#x20;
 {% endhint %}
 
 ### Step 4
