@@ -1,15 +1,17 @@
 # Intro to Ethical Machine Learning: Driver Distraction
 
-### Welcome to an activity on ethical machine learning!&#x20;
+### Welcome to an activity on ethical Machine Learning (ML)!&#x20;
 
 This activity is centered on a practical example of ethical use of AI - **Driver Distraction Detection (DDD) systems**.
 
-At the end of this activity, you will be able to: &#x20;
+At the end of this activity, you will: &#x20;
 
-1. Describe what DDD systems are and how they function. &#x20;
-2. Create a basic machine learning model that can detect distraction.
-3. Summarize principles for creating ethical AI models.&#x20;
-4. Evaluate the accuracy and implications of DDD systems. &#x20;
+1. Acquire introductory machine learning knowledge.
+2. Identify reasons behind bias in ML models.
+3. Create a basic image classifier that can detect distraction.
+4. Evaluate the accuracy of the ML model created.
+5. Evaluate the implications of the ML model created based on the principles for creating ethical AI.&#x20;
+6. Make predictions and control physical components through a microcontroller (part of the optional component)&#x20;
 
 ### Prerequisite skills and hardware components required:&#x20;
 
