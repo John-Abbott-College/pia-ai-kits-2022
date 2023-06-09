@@ -6,8 +6,6 @@ Machine learning (ML) is a branch of AI that enables a machine to learn without 
 
 <summary>Learn More - ML's Potential to do Good </summary>
 
-Through iterative learning processes, machine learning algorithms can adapt and optimize their performance over time, enhancing their ability to handle new or unseen data ([Ref](https://workshops.hackclub.com/teachable\_machine/)).&#x20;
-
 Machine learning offers a wide range of benefits across various domains, such as: &#x20;
 
 * **Data-driven insights**: Machine learning enables the analysis of complex data to extract valuable insights and patterns that may be difficult for humans to identify, leading to informed decision-making and improved outcomes.&#x20;
@@ -20,6 +18,8 @@ Machine learning offers a wide range of benefits across various domains, such as
 * **Predictive maintenance**: Machine learning can analyze sensor data to predict equipment failures and maintenance needs, helping businesses proactively address issues and minimize downtime.&#x20;
 * **Improved customer service**: Machine learning-powered chatbots and virtual assistants can understand natural language queries, provide instant and personalized assistance, and enhance customer service experiences.&#x20;
 * **Scientific advancements**: Machine learning contributes to scientific research by enabling data analysis, pattern recognition, and simulations, accelerating discoveries and breakthroughs in various fields.&#x20;
+
+
 
 </details>
 
@@ -77,6 +77,8 @@ The unjust implications of algorithms are not limited to the enforcement of subj
 
 Facial recognition algorithms are not only susceptible to bias but also to manipulation. For example, the age algorithm in How Normal Am I? will falsely perceive an individual to be young if they shake their head ([Ref](https://starts.eu/article/detail/how-normal-am-i/)). Moreover, manipulating certain factors such as lighting can influence the beauty score, while raising eyebrows can result in a lower BMI score ([Ref](https://starts.eu/article/detail/how-normal-am-i/)).&#x20;
 
-The potential for inaccurate predications has broader implications. Facial recognition algorithms have been known to exhibit high rates of false positives and false negatives, leading to wrongful identification and potential harm to innocent individuals.   &#x20;
+The potential for inaccurate predications has broader implications. Facial recognition algorithms have been known to exhibit high rates of false positives and false negatives, leading to wrongful identification and potential harm to innocent individuals.  &#x20;
+
+Through iterative learning processes, machine learning algorithms can adapt and optimize their performance over time, enhancing their ability to handle new or unseen data ([Ref](https://workshops.hackclub.com/teachable\_machine/)). &#x20;
 
 </details>
