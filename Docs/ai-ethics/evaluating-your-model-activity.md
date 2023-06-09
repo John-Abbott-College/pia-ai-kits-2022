@@ -162,4 +162,4 @@ There are several approaches researchers are taking to mitigate or minimize bias
 * developing novel methods to detect and identify biases in AI systems ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit))
 * establishing open datasets and fostering collaborations through partnerships ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit))
 
-Think about how you can improve your model.&#x20;
+Think about how you can minimize bias and improve your model. Share your solutions [here](https://jamboard.google.com/d/15t-0Eb1\_3UKH59lPFXcR6Mx2ufheaKjE9FcMNYWeNNM/edit?usp=sharing).&#x20;

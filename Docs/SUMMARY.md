@@ -7,17 +7,17 @@
 
 ## Distraction Detection
 
-* [Dangers of Distracted Driving](distraction-detection/dangers-of-distracted-driving.md)
-* [Identifying Distraction \[Activity\]](distraction-detection/identifying-distraction-activity.md)
-* [Measuring Distraction](distraction-detection/measuring-distraction.md)
+* [Dangers of Distracted Driving](alertness-detection/dangers-of-driving-unalert.md)
+* [Identifying Distraction \[Activity\]](alertness-detection/identifying-alertness-activity.md)
+* [Measuring Distraction](alertness-detection/measuring-alertness.md)
 
 ## Building a Distraction Detection Model
 
-* [Intro to Teachable Machine](building-a-distraction-detection-model/intro-to-teachable-machine.md)
-* [Part 1: Train a Machine Learning Model](building-a-distraction-detection-model/part-1-train-a-machine-learning-model.md)
-* [Part 2: Make Predictions on Browser](building-a-distraction-detection-model/part-2-make-predictions-on-browser.md)
-* [Part 3: Control Buzzer from Browser](building-a-distraction-detection-model/part-3-control-buzzer-from-browser.md)
-* [Part 4: Putting Everything Together](building-a-distraction-detection-model/part-4-putting-everything-together.md)
+* [Intro to Teachable Machine](building-an-alertness-detection-model/intro-to-teachable-machine.md)
+* [Part 1: Train a Machine Learning Model](building-an-alertness-detection-model/part-1-train-a-machine-learning-model.md)
+* [Part 2: Make Predictions on Browser](building-an-alertness-detection-model/part-2-make-predictions-on-browser.md)
+* [Part 3: Control Buzzer from Browser](building-an-alertness-detection-model/part-3-control-buzzer-from-browser.md)
+* [Part 4: Putting Everything Together](building-an-alertness-detection-model/part-4-putting-everything-together.md)
 
 ## AI Ethics
 
