@@ -7,7 +7,7 @@ This activity is centered on a practical example of ethical use of AI - **Driver
 At the end of this activity, you will be able to: &#x20;
 
 1. Describe what DDD systems are and how they function. &#x20;
-2. Create a basic machine learning model that can detect alertness.
+2. Create a basic machine learning model that can detect distraction.
 3. Summarize principles for creating ethical AI models.&#x20;
 4. Evaluate the accuracy and implications of DDD systems. &#x20;
 

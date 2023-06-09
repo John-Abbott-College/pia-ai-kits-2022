@@ -14,11 +14,11 @@ The AI models used in _How Normal Am I?_ have been modified to operate within a 
 
 ### Debrief
 
-Take a moment to reflect and respond to the following questions. Share your responses [here](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=0).&#x20;
+Take a moment to reflect and respond to the following questions. Share your responses on the board [here](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=0).&#x20;
 
 {% tabs %}
 {% tab title="Q1" %}
-<mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you?</mark>
+<mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you? Share the instances in the share-out grid in the cell dedicated to you.</mark>
 
 
 {% endtab %}
