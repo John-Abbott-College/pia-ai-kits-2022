@@ -58,6 +58,7 @@ It is important to note that there is no one set of rules that have been agreed 
 
 #### Aim
 
+* Evaluate the accuracy of your model&#x20;
 * Consider the ethical implications of using your model in a real-life scenario&#x20;
 * Think of ways to mitigate any potential harm your model could cause&#x20;
 
@@ -68,8 +69,6 @@ It is important to note that there is no one set of rules that have been agreed 
 3. Read the scenario&#x20;
 4. Reflect on the accuracy of your model
 5. Evaluate your model with respect to the scenario and the ethical principle (**responsibility, fairness, transparency,** or **freedom**) your teacher assigned to your group
-
-
 
 ## **Scenario**&#x20;
 

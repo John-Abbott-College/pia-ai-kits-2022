@@ -75,10 +75,8 @@ The unjust implications of algorithms are not limited to the enforcement of subj
 
 ### **Manipulation** &#x20;
 
-Facial recognition algorithms are not only susceptible to bias but also to manipulation. For example, the age algorithm in How Normal Am I? will falsely perceive an individual to be young if they shake their head ([Ref](https://starts.eu/article/detail/how-normal-am-i/)). Moreover, manipulating certain factors such as lighting can influence the beauty score, while raising eyebrows can result in a lower BMI score ([Ref](https://starts.eu/article/detail/how-normal-am-i/)).&#x20;
+[Facial recognition algorithms](http://gendershades.org/) are not only susceptible to bias but also to manipulation. For example, the age algorithm in _How Normal Am I?_ will falsely perceive an individual to be young if they shake their head ([Ref](https://starts.eu/article/detail/how-normal-am-i/)). Moreover, manipulating certain factors such as lighting can influence the beauty score, while raising eyebrows can result in a lower BMI score ([Ref](https://starts.eu/article/detail/how-normal-am-i/)).&#x20;
 
-The potential for inaccurate predications has broader implications. Facial recognition algorithms have been known to exhibit high rates of false positives and false negatives, leading to wrongful identification and potential harm to innocent individuals.  &#x20;
-
-Through iterative learning processes, machine learning algorithms can adapt and optimize their performance over time, enhancing their ability to handle new or unseen data ([Ref](https://workshops.hackclub.com/teachable\_machine/)). &#x20;
+The potential for inaccurate predications has broader implications. Facial recognition algorithms have been known to exhibit high rates of false positives and false negatives, leading to wrongful identification and potential harm to innocent individuals.   &#x20;
 
 </details>
