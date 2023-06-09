@@ -1,8 +1,8 @@
-# Identifying Alertness \[Activity]
+# Identifying Distraction \[Activity]
 
 ### Overview&#x20;
 
-In this activity, you’ll work on identifying characteristics related to the state of **alertness** and its opposite, which we'll call **unalertness**.
+In this activity, you’ll work on identifying characteristics related to the state of distraction.
 
 ## 1. Think&#x20;
 
@@ -15,7 +15,7 @@ In this activity, you’ll work on identifying characteristics related to the st
 #### On your own, write down answers to the following questions: &#x20;
 
 * <mark style="color:purple;">How do we recognize</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**alertness**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">in ourselves and others?</mark>&#x20;
-* <mark style="color:purple;">What cues or characteristics indicate that a person is</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**unalert**</mark><mark style="color:purple;">?</mark>
+* <mark style="color:purple;">What cues or characteristics indicate that a person is</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**distracted**</mark><mark style="color:purple;">?</mark>
 
 ## 3. Pair
 

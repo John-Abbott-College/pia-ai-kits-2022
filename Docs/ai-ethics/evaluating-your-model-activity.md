@@ -1,11 +1,8 @@
 # Evaluating Your Model \[Activity]
 
-\*transition
+Now that you've built your model, let's put it to the test!&#x20;
 
-Page navigation&#x20;
-
-1. Principles for ethical AI&#x20;
-2. Activity overview&#x20;
+Testing AI is not just about how accurate its predictions are. Anyone involved in the development or deployment of AI technologies must be mindful of the impact they can have. As we learned earlier, AI technologies have the potential to cause harm. To avoid doing harm, AI must be developed and deployed with ethical principles in mind.&#x20;
 
 ## Principles for Ethical AI
 
@@ -15,9 +12,9 @@ While there is no universal set of guidelines or regulations governing AI, a con
 
 <details>
 
-<summary>Learn More - 1. AI Ethics Intricacies &#x26; 2. Challenges With Making AI More Ethical</summary>
+<summary>Learn More - AI Ethical Principle Details &#x26; Challenges With Making AI More Ethical</summary>
 
-### 1. The Intricacies of Each AI Ethical Principle
+### AI Ethical Principle Details
 
 #### Responsibility &#x20;
 
@@ -47,7 +44,7 @@ While there is no universal set of guidelines or regulations governing AI, a con
   * Protection against unwarranted surveillance&#x20;
   * Protection against manipulation by AI systems&#x20;
 
-### 2. Challenges with making AI more ethical
+### Challenges With Making AI More Ethical
 
 By acknowledging the potential biases and ethical considerations associated with AI, we can strive to develop AI systems that are fair, accountable, and uphold ethical standards, while promoting inclusivity. However, achieving these goals can be challenging due to the **complexity of AI systems**, which often involve numerous variables that make comprehensive understanding difficult. &#x20;
 
@@ -55,45 +52,45 @@ It is important to note that there is no one set of rules that have been agreed 
 
 </details>
 
-## Activity Overview&#x20;
+## Evaluate Your Model&#x20;
 
-#### Activity Aim
+### Activity Overview
+
+#### Aim
 
 * Consider the ethical implications of using your model in a real-life scenario&#x20;
 * Think of ways to mitigate any potential harm your model could cause&#x20;
 
-#### Activity Instructions&#x20;
+#### Instructions&#x20;
 
 1. Split into groups (4-6 people)&#x20;
 2. Assign the following roles within your group: **leader, notetaker, timekeeper,** and **presenter**&#x20;
 3. Read the scenario&#x20;
-4. Reflect on the accuracy of your model&#x20;
+4. Reflect on the accuracy of your model
 5. Evaluate your model with respect to the scenario and the ethical principle (**responsibility, fairness, transparency,** or **freedom**) your teacher assigned to your group
 
 ## **Scenario**&#x20;
 
 Your model has gained widespread attention due to its potential to revolutionize the **delivery industry** by significantly reducing the number of accidents caused by driver negligence or fatigue. Delivery companies across the country are eager to adopt your technology, believing it will enhance road safety and improve the efficiency of their operations.
 
-#### **Example of a Real-Life DDD System**&#x20;
-
-Amazon is deploying a system called Driveri, developed by Netradyne, in its delivery vehicles to continuously monitor drivers and report any perceived questionable actions to their supervisors. Watch the promotional video below to get a sense of what a real DDD system looks like and to learn how Driveri works.&#x20;
+To help you imagine this scenario, review the video below that promotes a real-life DDD system - **Driveri** which is currently being used by Amazon to monitor their delivery drivers.&#x20;
 
 {% embed url="https://www.youtube.com/watch?v=W2F-3oq7nDI" %}
 
 ## Evaluation
 
-Consider the broader implications of integrating your model into delivery trucks. Reflect on the ethical implications involved in deploying such a technology and explore possible solutions to ensure that ethical principles are upheld while maximizing the benefits of your innovation.
+Consider the broader implications of putting your model on the market. Reflect on the ethical implications involved in deploying such a technology and how ethical principles can be upheld while the benefits of your innovation are maximized.
 
 ### Accuracy
 
-Reflect on the accuracy of the models you created in your pairs. Write your answers to the following questions [here](https://jamboard.google.com/d/1FlTpJDsXlAhTQZpGRK3j6IXyUsO0nTzYn1gplZQW-18/edit?usp=sharing).&#x20;
+Reflect on the accuracy of the model you created. Write your answers to the following questions [here](https://jamboard.google.com/d/1FlTpJDsXlAhTQZpGRK3j6IXyUsO0nTzYn1gplZQW-18/edit?usp=sharing).&#x20;
 
-* <mark style="color:purple;">Were there instances where your model made accurate predictions. Why?</mark>
-* <mark style="color:purple;">Were there instances where your model made inaccurate predictions. Why?</mark>
+* <mark style="color:purple;">Were there instances where your model made accurate predictions. Why do you think it worked?</mark>
+* <mark style="color:purple;">Were there instances where your model made inaccurate predictions. Why do you think it did not work?</mark>
 
 ### Ethics
 
-Answer the questions related to the ethical principle you have chosen to focus on.&#x20;
+Answer the questions related to the ethical principle you have been assigned. &#x20;
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Responsibility</strong></td><td><mark style="color:purple;">What level of responsibility do you believe technology developers have in ensuring the ethical implications and consequences of their creations? Should there be a code of ethics specific to driver monitoring models? If so, what principles should it encompass?</mark></td><td><mark style="color:purple;">While the model aims to reduce accidents caused by human error, what happens when the model itself malfunctions or makes incorrect judgments? How can you address the possibility of false positives or false negatives that may lead to unfair penalties or compromised safety?</mark></td></tr><tr><td><strong>Fairness</strong></td><td><mark style="color:purple;">How can you ensure that the model does not disproportionately affect certain individuals or groups, such as based on race, gender, or socioeconomic background? What steps can be taken to mitigate bias and discrimination in the model's decision-making process?</mark></td><td><mark style="color:purple;">Should drivers have the ability to contest or appeal the decisions made by the driver monitoring model? How can you strike a balance between providing drivers with agency and upholding safety standards?</mark></td></tr><tr><td><strong>Transparency</strong></td><td><mark style="color:purple;">How can you make the decision-making process of the model transparent to both drivers and the general public? What mechanisms or explanations can be provided to ensure that the system's judgments are understandable and explainable?</mark></td><td><mark style="color:purple;">How can you ensure transparency in how the data collected by the model is utilized? What measures can be implemented to inform drivers about the types of data being collected, how it will be used, and how long it will be retained?</mark></td></tr><tr><td><strong>Freedom</strong></td><td><mark style="color:purple;">How can the driver monitoring model strike a balance between enhancing safety and preserving the freedom and autonomy of drivers? Should drivers have the ability to disable or override the monitoring system in certain situations?</mark></td><td><mark style="color:purple;">Does the implementation of driver monitoring models raise concerns about freedom of movement and privacy, as it restricts or monitors drivers' actions? How can you address these concerns while ensuring road safety?</mark></td></tr></tbody></table>
 
@@ -119,7 +116,7 @@ DDD systems encounter numerous challenges that limit their accuracy.
 
 DDD systems encounter accuracy challenges due to several factors. One reason is the limited variation in frame sequences for the classes of interest, such as looking forward, looking left, or looking right (Chai et al., 2023). Unlike different human activities like jumping or squatting, the variation in head movements is minimal, while other features, such as appearance and clothing, vary significantly across different drivers (Chai et al., 2023). This can lead to overfitting and poor generalization when using convolution-based models trained and tested on different drivers (Chai et al., 2023). &#x20;
 
-Additionally, unlike traditional human activity classification where multiple frames contribute to determining the action label, in driver monitoring, the label primarily depends on frames towards the end, such as distinguishing between looking left and looking forward (Chai et al., 2023). Moreover, the camera's position can pose an additional challenge by decreasing the visual differences between different classes, such as looking forward and looking left (Chai et al., 2023).  Driver alertness detection (DAD) systems face accuracy challenges due to various factors. One such factor is the limited variation in frame sequences for the classes of interest. For DAD systems that detect alertness based on the driver’s head position, the main classes of interest would include actions such as turning one’s head to the left, right, or downwards. The system could be trained to associate these classes with various levels of alertness. For example, if the driver’s head is turned downwards, they could be looking at their phone and so, this action would be classified as driving unalert.&#x20;
+Additionally, unlike traditional human activity classification where multiple frames contribute to determining the action label, in driver monitoring, the label primarily depends on frames towards the end, such as distinguishing between looking left and looking forward (Chai et al., 2023). Moreover, the camera's position can pose an additional challenge by decreasing the visual differences between different classes, such as looking forward and looking left (Chai et al., 2023).  DDD systems face accuracy challenges due to various factors. One such factor is the limited variation in frame sequences for the classes of interest. For DDD systems that detect distraction based on the driver’s head position, the main classes of interest would include actions such as turning one’s head to the left, right, or downwards. The system could be trained to associate these classes with various levels of distraction. For example, if the driver’s head is turned downwards, they could be looking at their phone and so, this action would be classified as driving distraction.&#x20;
 
 However, unlike different human activities like jumping or squatting, the variation in head movements is minimal, while other features, such as appearance and clothing, vary significantly across different drivers (Chai et al., 2023). A lack of variation in the training classes for DAD systems can make its predictions less accurate, especially for people of darker skin colors (Albadawi, Takruri, & Award, 2022). This is an example of overfitting, which is a concerning machine learning behaviour that can lead to discrimination as it makes the model biased toward certain groups over others.&#x20;
 

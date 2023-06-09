@@ -1,8 +1,8 @@
-# Measuring Alertness
+# Measuring Distraction
 
 ## Distraction&#x20;
 
-Drivers may become **unalert** due to **distractions** in the driving environment.&#x20;
+<mark style="color:red;">Distraction is a</mark> <mark style="color:red;"></mark><mark style="color:red;">**complex**</mark> <mark style="color:red;"></mark><mark style="color:red;">state.</mark> Most activities that divert a driver’s attention from the road and the task of driving tend to involve multiple, if not all, types of distraction simultaneously (Ahangari et al., 2020).&#x20;
 
 <div>
 
@@ -13,8 +13,6 @@ Drivers may become **unalert** due to **distractions** in the driving environmen
 <figure><img src="../.gitbook/assets/Woman Traveling By Car Using Smartphone.jpeg" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
-
-<mark style="color:red;">Distraction is a</mark> <mark style="color:red;"></mark><mark style="color:red;">**complex**</mark> <mark style="color:red;"></mark><mark style="color:red;">state.</mark> Most activities that divert a driver’s attention from the road and the task of driving tend to involve multiple, if not all, types of distraction simultaneously (Ahangari et al., 2020).&#x20;
 
 ### Types of Distractions
 
@@ -78,7 +76,7 @@ Distraction is a multifaceted state that cannot be fully captured by just one ty
 
 ## Data Types
 
-There are four types of data used to study alertness in driving, each type has its **advantages** and **limitations** (Vismaya & Saritha, 2020).&#x20;
+There are four types of data used to study distracted driving, each type has its **advantages** and **limitations** (Vismaya & Saritha, 2020).&#x20;
 
 {% tabs %}
 {% tab title="Behavioural" %}
@@ -112,7 +110,7 @@ Alternatively, a driver can experience cognitive distraction without it being ev
 
 ## Supervised Machine Learning (SML)
 
-| Steps for training an SML model to identify unalert driving                                                                                           |
+| Steps for training an SML model to identify distracted driving                                                                                        |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <ol><li>Human experts review visual data of drivers and assess their level of distraction based on the behaviour they display while driving</li></ol> |
 | <ol start="2"><li>Labels are created to categorize the different levels of distraction</li></ol>                                                      |

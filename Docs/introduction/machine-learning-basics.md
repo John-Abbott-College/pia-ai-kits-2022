@@ -1,8 +1,37 @@
 # Machine Learning Basics
 
-Machine learning (ML) is a branch of AI that enables a machine to learn without being explicitly programmed.
+Machine learning (ML) is a branch of AI that enables a machine to learn without being explicitly programmed.&#x20;
 
-While machine learning has demonstrated remarkable potential, it is not without its challenges and concerns.
+<details>
+
+<summary>Learn More - ML's Potential to do Good </summary>
+
+Through iterative learning processes, machine learning algorithms can adapt and optimize their performance over time, enhancing their ability to handle new or unseen data ([Ref](https://workshops.hackclub.com/teachable\_machine/)).&#x20;
+
+Machine learning offers a wide range of benefits across various domains, such as: &#x20;
+
+* **Data-driven insights**: Machine learning enables the analysis of complex data to extract valuable insights and patterns that may be difficult for humans to identify, leading to informed decision-making and improved outcomes.&#x20;
+* **Automation and efficiency**: Machine learning automates repetitive tasks, reducing manual effort and increasing productivity. It streamlines processes, leading to improved efficiency and cost savings.&#x20;
+* **Enhanced accuracy and precision**: Machine learning algorithms excel at tasks such as image and speech recognition, natural language processing, and predictive analytics, leading to higher accuracy and precision in various applications.&#x20;
+* **Personalized experiences**: Machine learning enables personalized recommendations and experiences by understanding individual preferences, improving user satisfaction, and driving customer loyalty.&#x20;
+* **Real-time fraud detection**: Machine learning algorithms can detect fraudulent activities by analyzing patterns and anomalies in transaction data, providing real-time fraud prevention and safeguarding financial systems.&#x20;
+* **Advanced healthcare diagnostics**: Machine learning aids in early disease detection and diagnosis by analyzing medical records, imaging data, and genetic information, enabling timely intervention and improved patient outcomes.&#x20;
+* **Autonomous systems**: Machine learning plays a crucial role in autonomous vehicles, enabling object recognition, behavior prediction, and real-time decision-making for enhanced safety and efficiency.&#x20;
+* **Predictive maintenance**: Machine learning can analyze sensor data to predict equipment failures and maintenance needs, helping businesses proactively address issues and minimize downtime.&#x20;
+* **Improved customer service**: Machine learning-powered chatbots and virtual assistants can understand natural language queries, provide instant and personalized assistance, and enhance customer service experiences.&#x20;
+* **Scientific advancements**: Machine learning contributes to scientific research by enabling data analysis, pattern recognition, and simulations, accelerating discoveries and breakthroughs in various fields.&#x20;
+
+</details>
+
+While machine learning has demonstrated remarkable potential, it is not without its challenges and concerns.&#x20;
+
+## Bias in AI
+
+> <mark style="color:red;">“</mark><mark style="color:red;">**Bias**</mark> <mark style="color:red;"></mark><mark style="color:red;">is a prejudice for or against something or somebody, that may result in unfair decisions.” (European Commission, 2018)</mark>
+
+Humans are known to exhibit bias in their decisions, and since AI systems are created by humans, there is a possibility of unintentionally injecting bias into them (European Commission, 2018). This is especially true in AI systems that rely on machine learning techniques and the collection and selection of training data (European Commission, 2018).&#x20;
+
+If the **training data** is not **diverse** and **balanced**, the system may learn to make unfair decisions (European Commission, 2018). When AI systems are applied to scenarios involving people, biases related to shapes, colors, skin color, or gender can arise ([Ref](https://www.digitaltechnologieshub.edu.au/teach-and-assess/classroom-resources/lesson-ideas/data-bias-in-ai/)). These biases present ethical concerns as AI systems can reinforce and amplify existing biases, and their decision-making process may be difficult to understand or question due to their complex nature (Shaw, 2019).&#x20;
 
 ### _How Normal Am I?_
 
@@ -18,9 +47,7 @@ Take a moment to reflect and respond to the following questions. Share your resp
 
 {% tabs %}
 {% tab title="Q1" %}
-<mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you? Share the instances in the share-out grid in the cell dedicated to you.</mark>
-
-
+<mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you? Add these instances to the share-out grid in the cell dedicated to you.</mark>
 {% endtab %}
 
 {% tab title="Q2" %}
@@ -28,40 +55,15 @@ Take a moment to reflect and respond to the following questions. Share your resp
 {% endtab %}
 {% endtabs %}
 
-> <mark style="color:red;">“Bias is a prejudice for or against something or somebody, that may result in unfair decisions.” (European Commission, 2018)</mark>
-
 <details>
 
-<summary>Learn More - 1. ML's Potential to do Good &#x26;  2. Bias &#x26; Manipulation in AI</summary>
-
-### 1. ML's Potential to do Good
-
-ML involves the construction of mathematical models and algorithms that can analyze and interpret complex data, identify patterns, and make predictions or decisions based on the patterns discovered ([Ref](https://workshops.hackclub.com/teachable\_machine/)). Through iterative learning processes, machine learning algorithms can adapt and optimize their performance over time, enhancing their ability to handle new or unseen data ([Ref](https://workshops.hackclub.com/teachable\_machine/)).&#x20;
-
-#### Machine Learning’s potential to do good &#x20;
-
-Machine learning offers a wide range of benefits across various domains, such as: &#x20;
-
-* **Data-driven insights**: Machine learning enables the analysis of complex data to extract valuable insights and patterns that may be difficult for humans to identify, leading to informed decision-making and improved outcomes.&#x20;
-* **Automation and efficiency**: Machine learning automates repetitive tasks, reducing manual effort and increasing productivity. It streamlines processes, leading to improved efficiency and cost savings.&#x20;
-* **Enhanced accuracy and precision**: Machine learning algorithms excel at tasks such as image and speech recognition, natural language processing, and predictive analytics, leading to higher accuracy and precision in various applications.&#x20;
-* **Personalized experiences**: Machine learning enables personalized recommendations and experiences by understanding individual preferences, improving user satisfaction, and driving customer loyalty.&#x20;
-* **Real-time fraud detection**: Machine learning algorithms can detect fraudulent activities by analyzing patterns and anomalies in transaction data, providing real-time fraud prevention and safeguarding financial systems.&#x20;
-* **Advanced healthcare diagnostics**: Machine learning aids in early disease detection and diagnosis by analyzing medical records, imaging data, and genetic information, enabling timely intervention and improved patient outcomes.&#x20;
-* **Autonomous systems**: Machine learning plays a crucial role in autonomous vehicles, enabling object recognition, behavior prediction, and real-time decision-making for enhanced safety and efficiency.&#x20;
-* **Predictive maintenance**: Machine learning can analyze sensor data to predict equipment failures and maintenance needs, helping businesses proactively address issues and minimize downtime.&#x20;
-* **Improved customer service**: Machine learning-powered chatbots and virtual assistants can understand natural language queries, provide instant and personalized assistance, and enhance customer service experiences.&#x20;
-* **Scientific advancements**: Machine learning contributes to scientific research by enabling data analysis, pattern recognition, and simulations, accelerating discoveries and breakthroughs in various fields.&#x20;
-
-### 2. Bias & Manipulation in AI&#x20;
+<summary>Learn More - Bias &#x26; Manipulation in AI</summary>
 
 _How Normal Am I?_ was made by Tijmen Schep - an artist, technology critic, and privacy advocate - with the aim of provoking people to question the reliability of facial recognition systems and AI more broadly ([Ref](https://starts.eu/article/detail/how-normal-am-i/)). &#x20;
 
-The documentary uses a facial recognition algorithm to judge a person’s beauty, age, gender, body mass index, life expectancy, and other factors ([Ref](https://www.tijmenschep.com/how-normal-am-i/)). Facial recognition algorithms heavily rely on the training data they receive, which consists of manually labeled photos. &#x20;
-
 _“If you have a low score, it might just be because the judgment of these algorithms is so dependent on how they were trained” -_ Tijmen Schep ([Ref](https://www.techjuice.pk/this-eu-funded-ai-judges-your-face-and-tells-you-how-normal-you-are/)) &#x20;
 
-**Bias** &#x20;
+### **Bias** &#x20;
 
 The algorithms in the documentary classify and rate individuals based on the labelling of their training samples. Due to the manual labeling of training samples by individuals, the algorithms rely on subjective standards, making them susceptible to bias. &#x20;
 
@@ -71,26 +73,10 @@ Besides this obvious potential for bias, beauty cannot be based on objective nor
 
 The unjust implications of algorithms are not limited to the enforcement of subjective beauty standards. If the training data used to develop image or facial recognition models is biased or lacks diversity, it can lead to inaccurate and unfair results, disproportionately impacting certain demographic groups. This can result in discriminatory practices in areas such as law enforcement, surveillance, and hiring processes, reinforcing existing social biases and inequities. &#x20;
 
-**Manipulation** &#x20;
+### **Manipulation** &#x20;
 
 Facial recognition algorithms are not only susceptible to bias but also to manipulation. For example, the age algorithm in How Normal Am I? will falsely perceive an individual to be young if they shake their head ([Ref](https://starts.eu/article/detail/how-normal-am-i/)). Moreover, manipulating certain factors such as lighting can influence the beauty score, while raising eyebrows can result in a lower BMI score ([Ref](https://starts.eu/article/detail/how-normal-am-i/)).&#x20;
 
-The potential for inaccurate predications has broader implications. Facial recognition algorithms have been known to exhibit high rates of false positives and false negatives, leading to wrongful identification and potential harm to innocent individuals. &#x20;
-
-
-
-### 1. **Bias in AI**&#x20;
-
-Humans are known to exhibit bias in their decisions, and since AI systems are created by humans, there is a possibility of unintentionally injecting bias into them (European Commission, 2018). This is especially true in AI systems that rely on machine learning techniques and the collection and selection of training data (European Commission, 2018).&#x20;
-
-If the training data is not diverse and balanced, the system may learn to make unfair decisions (European Commission, 2018). When AI systems are applied to scenarios involving people, biases related to shapes, colors, skin color, or gender can arise ([Ref](https://www.digitaltechnologieshub.edu.au/teach-and-assess/classroom-resources/lesson-ideas/data-bias-in-ai/)). &#x20;
-
-These biases present ethical concerns as AI systems can reinforce and amplify existing biases, and their decision-making process may be difficult to understand or question due to their complex nature (Shaw, 2019). Despite the superior processing capabilities of AI, it cannot be assumed to always be fair and unbiased since it is created by fallible humans prone to bias and judgment (Bossman, 2016).&#x20;
-
-### **2. Facial Recognition Systems**&#x20;
-
-Commonly used facial recognition systems have been shown to over-represent certain populations, leading to better performance for them while neglecting others ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit)). This imbalance in training data, known as "selection bias," particularly affects dark-skinned women ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit)).&#x20;
-
-Unfortunately, little progress has been made in accurately recognizing facial features of black women since Buolamwini's investigation in 2015 (Babusi, 2020). Recent studies have shown that general application facial recognition systems in the US misidentify people of color at significantly higher rates than white individuals (Babusi, 2020). &#x20;
+The potential for inaccurate predications has broader implications. Facial recognition algorithms have been known to exhibit high rates of false positives and false negatives, leading to wrongful identification and potential harm to innocent individuals.   &#x20;
 
 </details>
