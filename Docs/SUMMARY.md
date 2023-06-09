@@ -21,8 +21,4 @@
 
 ## AI Ethics
 
-* [Bias in AI](ai-ethics/bias-in-ai.md)
-* [Principles for Ethical AI](ai-ethics/principles-for-ethical-ai/README.md)
-  * [Evaluating Your Model \[Activity\]](ai-ethics/principles-for-ethical-ai/evaluating-your-model-activity.md)
-* [Issues with DAD Systems](ai-ethics/issues-with-dad-systems/README.md)
-  * [Case Study: Driveri](ai-ethics/issues-with-dad-systems/case-study-driveri.md)
+* [Evaluating Your Model \[Activity\]](ai-ethics/evaluating-your-model-activity.md)

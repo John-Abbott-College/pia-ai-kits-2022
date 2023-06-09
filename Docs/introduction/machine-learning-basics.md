@@ -28,6 +28,8 @@ Take a moment to reflect and respond to the following questions. Share your resp
 {% endtab %}
 {% endtabs %}
 
+> <mark style="color:red;">“Bias is a prejudice for or against something or somebody, that may result in unfair decisions.” (European Commission, 2018)</mark>
+
 <details>
 
 <summary>Learn More - 1. ML's Potential to do Good &#x26;  2. Bias &#x26; Manipulation in AI</summary>
@@ -74,5 +76,21 @@ The unjust implications of algorithms are not limited to the enforcement of subj
 Facial recognition algorithms are not only susceptible to bias but also to manipulation. For example, the age algorithm in How Normal Am I? will falsely perceive an individual to be young if they shake their head ([Ref](https://starts.eu/article/detail/how-normal-am-i/)). Moreover, manipulating certain factors such as lighting can influence the beauty score, while raising eyebrows can result in a lower BMI score ([Ref](https://starts.eu/article/detail/how-normal-am-i/)).&#x20;
 
 The potential for inaccurate predications has broader implications. Facial recognition algorithms have been known to exhibit high rates of false positives and false negatives, leading to wrongful identification and potential harm to innocent individuals. &#x20;
+
+
+
+### 1. **Bias in AI**&#x20;
+
+Humans are known to exhibit bias in their decisions, and since AI systems are created by humans, there is a possibility of unintentionally injecting bias into them (European Commission, 2018). This is especially true in AI systems that rely on machine learning techniques and the collection and selection of training data (European Commission, 2018).&#x20;
+
+If the training data is not diverse and balanced, the system may learn to make unfair decisions (European Commission, 2018). When AI systems are applied to scenarios involving people, biases related to shapes, colors, skin color, or gender can arise ([Ref](https://www.digitaltechnologieshub.edu.au/teach-and-assess/classroom-resources/lesson-ideas/data-bias-in-ai/)). &#x20;
+
+These biases present ethical concerns as AI systems can reinforce and amplify existing biases, and their decision-making process may be difficult to understand or question due to their complex nature (Shaw, 2019). Despite the superior processing capabilities of AI, it cannot be assumed to always be fair and unbiased since it is created by fallible humans prone to bias and judgment (Bossman, 2016).&#x20;
+
+### **2. Facial Recognition Systems**&#x20;
+
+Commonly used facial recognition systems have been shown to over-represent certain populations, leading to better performance for them while neglecting others ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit)). This imbalance in training data, known as "selection bias," particularly affects dark-skinned women ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit)).&#x20;
+
+Unfortunately, little progress has been made in accurately recognizing facial features of black women since Buolamwini's investigation in 2015 (Babusi, 2020). Recent studies have shown that general application facial recognition systems in the US misidentify people of color at significantly higher rates than white individuals (Babusi, 2020). &#x20;
 
 </details>
