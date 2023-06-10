@@ -47,11 +47,11 @@ Take a moment to reflect and respond to the following questions. Share your resp
 
 {% tabs %}
 {% tab title="Q1" %}
-<mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you? Add these instances to the share-out grid in the cell dedicated to you.</mark>
+<mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you? Add these instances to the share-out grid in the cell dedicated to you on page 1 of the</mark> [<mark style="color:purple;">board</mark>](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/edit?usp=sharing)<mark style="color:purple;">.</mark>
 {% endtab %}
 
 {% tab title="Q2" %}
-<mark style="color:purple;">The algorithm used metrics such as beauty, age, gender, body mass index, and life expectancy to measure normality. Classify the metrics as objective or subjective.</mark>
+<mark style="color:purple;">The algorithm used metrics such as beauty, age, gender, body mass index, and life expectancy to measure normality. Classify the metrics as objective or subjective on page 2 of the</mark> [<mark style="color:purple;">board</mark>](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/edit?usp=sharing)<mark style="color:purple;">.</mark>
 {% endtab %}
 {% endtabs %}
 
