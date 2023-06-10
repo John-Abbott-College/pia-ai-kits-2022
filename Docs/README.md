@@ -9,8 +9,8 @@ At the end of this activity, you will: &#x20;
 1. Acquire introductory machine learning knowledge.
 2. Identify reasons behind bias in ML models.
 3. Create a basic image classifier that can detect distraction.
-4. Evaluate the accuracy of the ML model created.
-5. Evaluate the implications of the ML model created based on the principles for creating ethical AI.&#x20;
+4. Evaluate the accuracy of the created ML model.
+5. Evaluate the implications of the created ML model  based on the principles for creating ethical AI.&#x20;
 6. Make predictions and control physical components through a microcontroller (part of the optional component)&#x20;
 
 ### Prerequisite skills and hardware components required:&#x20;
