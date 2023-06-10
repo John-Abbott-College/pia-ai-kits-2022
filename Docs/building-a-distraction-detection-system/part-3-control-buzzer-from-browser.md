@@ -142,7 +142,7 @@ Based on the read value, turn ON or OFF the buzzer. &#x20;
 
 ### Step 5
 
-Test if your sketch is working by using the Serial Monitor of the Arduino IDE. Send the expected integer to your device and see if it reacts.&#x20;
+Test if your sketch is working by using the Serial Monitor (Go to Tools > Serial Monitor) of the Arduino IDE. Send the expected integer to your device and see if it reacts.&#x20;
 
-Go to Tools > Serial Monitor
+
 

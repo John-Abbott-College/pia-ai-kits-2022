@@ -1,6 +1,6 @@
 # Evaluating Your Model \[Activity]
 
-Now that you've built your model, let's put it test it!&#x20;
+Now that you've built your model, let's test it!&#x20;
 
 Testing AI is not just about how accurate its predictions are. Anyone involved in the development or deployment of AI technologies must be mindful of the impact they can have. As we learned earlier, AI technologies have the potential to cause harm. To avoid doing harm, AI must be developed and deployed with ethical principles in mind.&#x20;
 
