@@ -2,7 +2,7 @@
 
 ## Introduction
 
-* [Intro to Ethical Machine Learning: Driver Distraction](README.md)
+* [Intro to Kit](README.md)
 * [Machine Learning Basics](introduction/machine-learning-basics.md)
 
 ## Distraction Detection
