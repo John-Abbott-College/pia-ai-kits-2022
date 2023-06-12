@@ -1,5 +1,7 @@
 # Supervised Machine Learning
 
+Supervised machine learning uses labeled datasets to train algorithms to classify data or predict outcomes accurately.
+
 | Steps for training an SML model to identify distracted driving                                                                                        |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <ol><li>Human experts review visual data of drivers and assess their level of distraction based on the behaviour they display while driving</li></ol> |

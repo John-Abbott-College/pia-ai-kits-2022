@@ -3,7 +3,7 @@
 ## Introduction
 
 * [Intro to Kit](README.md)
-* [Into to Machine Learning \[Activity\]](introduction/into-to-machine-learning-activity.md)
+* [Into to Machine Learning \[Activity\]](introduction/machine-learning-basics.md)
 
 ## Distraction Detection
 

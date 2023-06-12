@@ -1,4 +1,4 @@
-# Machine Learning Basics
+# Into to Machine Learning \[Activity]
 
 Machine learning (ML) is a branch of AI that enables a machine to learn without being explicitly programmed.&#x20;
 
