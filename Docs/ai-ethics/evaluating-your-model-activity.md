@@ -98,12 +98,12 @@ Answer the questions related to the ethical principle your group has been assign
 
 ## Present
 
-Based on the ethical principle you have been assigned, add your responses to the board and be ready to share them with your class.
+Based on the ethical principle you have been assigned, add your responses to the [board ](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/edit?usp=sharing)and be ready to share them with your class.
 
-* Responsibility&#x20;
-* Fairness&#x20;
-* Transparency&#x20;
-* Freedom - page&#x20;
+* Responsibility - page 6
+* Fairness - page 7
+* Transparency - page 8
+* Freedom - page 9
 
 <details>
 
@@ -170,4 +170,4 @@ There are several approaches researchers are taking to mitigate or minimize bias
 * developing novel methods to detect and identify biases in AI systems ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit))
 * establishing open datasets and fostering collaborations through partnerships ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit))
 
-Think about how you can minimize bias and improve your model. Share your ideas [here](https://jamboard.google.com/d/15t-0Eb1\_3UKH59lPFXcR6Mx2ufheaKjE9FcMNYWeNNM/edit?usp=sharing).&#x20;
+Think about how you can minimize bias and improve your model. Share your ideas on page 10 of the [board](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/edit?usp=sharing).&#x20;
