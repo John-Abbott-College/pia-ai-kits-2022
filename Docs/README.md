@@ -1,4 +1,4 @@
-# Intro to Ethical Machine Learning: Driver Distraction
+# Intro to Kit
 
 ### Welcome to an activity on ethical Machine Learning (ML)!&#x20;
 
@@ -18,7 +18,7 @@ At the end of this activity, you will: &#x20;
 1. Basic programming.&#x20;
 2. A chrome-based browser such as Chrome, Edge or Brave. &#x20;
 3. For the optional part of the activity you will need:&#x20;
-   * A microcontroller such as an Arduino.
+   * Arduino compatible microcontroller such as the Raspberry Pi Pico or Arduino UNO.
    * A Micro-USB cable.
    * The latest version of Arduino IDE installed.
    * An Active [Buzzer](https://www.circuitbasics.com/what-is-a-buzzer/).
