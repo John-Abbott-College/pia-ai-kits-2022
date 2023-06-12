@@ -3,7 +3,7 @@
 ## Introduction
 
 * [Intro to Kit](README.md)
-* [Machine Learning Basics](introduction/machine-learning-basics.md)
+* [Into to Machine Learning \[Activity\]](introduction/into-to-machine-learning-activity.md)
 
 ## Distraction Detection
 
@@ -13,6 +13,7 @@
 
 ## Building a Distraction Detection System
 
+* [Supervised Machine Learning](building-a-distraction-detection-system/supervised-machine-learning.md)
 * [Intro to Teachable Machine](building-a-distraction-detection-system/intro-to-teachable-machine.md)
 * [Part 1: Train a Machine Learning Model](building-a-distraction-detection-system/part-1-train-a-machine-learning-model.md)
 * [Part 2: Make Predictions on Browser](building-a-distraction-detection-system/part-2-make-predictions-on-browser.md)
