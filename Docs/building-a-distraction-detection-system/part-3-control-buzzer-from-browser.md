@@ -13,7 +13,7 @@
 
 Add code in the `gotResults(err, results)` function so that the data variable is set to a different value depending on the label of the result.&#x20;
 
-Example: If classification is open, set it to `1`. If classification is closed, set it to `2`… &#x20;
+Example: If classification is head-up, set it to `1`. If classification is head-down, set it to `2`… &#x20;
 
 {% hint style="info" %}
 These values will be read from the microcontroller in the next step and perform some action.
@@ -81,11 +81,11 @@ Connect the + leg of the buzzer to GP5 pin and its negative leg to the ground (8
 
 ### Step 3
 
-To validate that your circuit is working, open the Arduino IDE. &#x20;
+To validate that your circuit is working:&#x20;
 
-### Step 4
-
-Create a new Sketch and add the below code to it.   &#x20;
+1. open the Arduino IDE&#x20;
+2. create a new Sketch&#x20;
+3. add the below code to it&#x20;
 
 ```
 const int buzzer = 5;
@@ -102,15 +102,15 @@ void loop() {
 }  
 ```
 
-### Step 6
+### Step 4
 
 Go to Tools > Board > Arduino Mbed OS RP2040 Boards > Raspberry Pi Pico. &#x20;
 
-### Step 7
+### Step 5
 
 Go to Tools > Port > Select Port &#x20;
 
-### Step 8
+### Step 6
 
 Upload the code, if the buzzer is beeping your connections are valid. &#x20;
 
@@ -120,7 +120,7 @@ Upload the code, if the buzzer is beeping your connections are valid. &#x20;
 
 </div>
 
-## Sketch Setup Instructions&#x20;
+## Arduino Sketch Setup&#x20;
 
 In these steps, you will modify the code to make the microcontroller read prediction values, sent by the sketch running on the browser, from the serial port and turn on the buzzer to alert the driver. &#x20;
 
