@@ -75,7 +75,7 @@ It is important to note that there is no one set of rules that have been agreed 
 
 Your model has gained widespread attention due to its potential to revolutionize the **delivery industry** by significantly reducing the number of accidents caused by driver negligence or fatigue. Delivery companies across the country are eager to adopt your technology, believing it will enhance road safety and improve the efficiency of their operations.
 
-To help you imagine this scenario, review the video below that promotes a real-life DDD system - **Driveri** which is currently being used by Amazon to monitor their delivery drivers.&#x20;
+To help you imagine this scenario, review the video below that promotes a real-life DDD system called **Driveri** which is currently being used by Amazon to monitor their delivery drivers.&#x20;
 
 {% embed url="https://www.youtube.com/watch?v=W2F-3oq7nDI" %}
 
