@@ -1,6 +1,8 @@
 # Supervised Machine Learning
 
-Supervised machine learning uses labeled datasets to train algorithms to classify data or predict outcomes accurately.
+Having gained an understanding of the complexity involved in measuring the state of distraction, it is now time to construct your own distraction detection model. This will be accomplished through the use of supervised machine learning (SML).
+
+SML uses labeled datasets to train algorithms to classify data or predict outcomes accurately.
 
 | Steps for training an SML model to identify distracted driving                                                                                        |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
