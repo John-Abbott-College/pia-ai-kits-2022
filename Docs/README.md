@@ -18,12 +18,12 @@ At the end of this activity, you will: &#x20;
 1. Basic programming.&#x20;
 2. A chrome-based browser such as Chrome, Edge or Brave. &#x20;
 3. For the optional part of the activity you will need:&#x20;
-   * Arduino compatible microcontroller such as the Raspberry Pi Pico or Arduino UNO.
-   * A Micro-USB cable.
-   * The latest version of Arduino IDE installed.
-   * An Active [Buzzer](https://www.circuitbasics.com/what-is-a-buzzer/).
+   * Arduino compatible microcontroller such as the Raspberry Pi Pico or Arduino UNO
+   * A Micro-USB cable
+   * The latest version of Arduino IDE installed
+   * An Active [Buzzer](https://www.circuitbasics.com/what-is-a-buzzer/)
    * A [Breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all)&#x20;
-   * Jumper wires.
+   * Jumper wires
 
 ### Navigation
 
