@@ -78,15 +78,15 @@ The AI models used in _How Normal Am I?_ have been modified to operate within a 
 
 ### Debrief
 
-Take a moment to reflect and respond to the following questions. Share your responses on the board [here](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=0).&#x20;
+Take a moment to reflect and respond to the following questions.&#x20;
 
 {% tabs %}
 {% tab title="Q1" %}
-<mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you? Add these instances to the share-out grid in the cell dedicated to you on page 1 of the</mark> [<mark style="color:purple;">board</mark>](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/edit?usp=sharing)<mark style="color:purple;">.</mark>
+<mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you? Add these instances to the share-out grid in the cell dedicated to you on this</mark> [page](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=0).
 {% endtab %}
 
 {% tab title="Q2" %}
-<mark style="color:purple;">The algorithm used metrics such as beauty, age, gender, body mass index, and life expectancy to measure normality. Classify the metrics as objective or subjective on page 2 of the</mark> [<mark style="color:purple;">board</mark>](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/edit?usp=sharing)<mark style="color:purple;">.</mark>
+<mark style="color:purple;">The algorithm used metrics such as beauty, age, gender, body mass index, and life expectancy to measure normality. Classify the metrics as objective or subjective</mark> [here.](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=1)
 {% endtab %}
 {% endtabs %}
 
