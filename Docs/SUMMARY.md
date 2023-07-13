@@ -22,4 +22,4 @@
 
 ## AI Ethics
 
-* [Evaluating Your Model \[Activity\]](ai-ethics/evaluating-your-model-activity.md)
+* [Evaluate Your Model \[Activity\]](ai-ethics/evaluate-your-model-activity.md)

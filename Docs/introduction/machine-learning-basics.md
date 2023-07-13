@@ -1,6 +1,6 @@
 # Into to Machine Learning \[Activity]
 
-Machine learning (ML) is a branch of AI that enables a machine to learn without being explicitly programmed.&#x20;
+Machine learning (ML) is a branch of AI that enables a machine to learn without being explicitly programmed ([Ref;](https://workshops.hackclub.com/teachable\_machine/) Tango & Botta, 2013).&#x20;
 
 <details>
 
@@ -8,18 +8,53 @@ Machine learning (ML) is a branch of AI that enables a machine to learn without 
 
 Machine learning offers a wide range of benefits across various domains, such as: &#x20;
 
-* **Data-driven insights**: Machine learning enables the analysis of complex data to extract valuable insights and patterns that may be difficult for humans to identify, leading to informed decision-making and improved outcomes.&#x20;
-* **Automation and efficiency**: Machine learning automates repetitive tasks, reducing manual effort and increasing productivity. It streamlines processes, leading to improved efficiency and cost savings.&#x20;
-* **Enhanced accuracy and precision**: Machine learning algorithms excel at tasks such as image and speech recognition, natural language processing, and predictive analytics, leading to higher accuracy and precision in various applications.&#x20;
-* **Personalized experiences**: Machine learning enables personalized recommendations and experiences by understanding individual preferences, improving user satisfaction, and driving customer loyalty.&#x20;
-* **Real-time fraud detection**: Machine learning algorithms can detect fraudulent activities by analyzing patterns and anomalies in transaction data, providing real-time fraud prevention and safeguarding financial systems.&#x20;
-* **Advanced healthcare diagnostics**: Machine learning aids in early disease detection and diagnosis by analyzing medical records, imaging data, and genetic information, enabling timely intervention and improved patient outcomes.&#x20;
-* **Autonomous systems**: Machine learning plays a crucial role in autonomous vehicles, enabling object recognition, behavior prediction, and real-time decision-making for enhanced safety and efficiency.&#x20;
-* **Predictive maintenance**: Machine learning can analyze sensor data to predict equipment failures and maintenance needs, helping businesses proactively address issues and minimize downtime.&#x20;
-* **Improved customer service**: Machine learning-powered chatbots and virtual assistants can understand natural language queries, provide instant and personalized assistance, and enhance customer service experiences.&#x20;
-* **Scientific advancements**: Machine learning contributes to scientific research by enabling data analysis, pattern recognition, and simulations, accelerating discoveries and breakthroughs in various fields.&#x20;
+* **Data-driven insights:** Machine learning enables the analysis of complex data to extract valuable insights and patterns that may be difficult for humans to identify, leading to informed decision-making and improved outcomes (Sarker, 2021). &#x20;
 
+&#x20;           Example: [Augmented analytics](https://www.fastcompany.com/90848153/how-retailers-can-leverage-next-generation-business-intelligence-and-augmented-analytics-in-2023) &#x20;
 
+* **Automation and efficiency:** Machine learning automates repetitive tasks, reducing manual effort and increasing productivity. It streamlines processes, leading to improved efficiency and cost savings (Ng et al., 2021). &#x20;
+
+&#x20;           Example: [Intelligent supply chains](https://www.supplychainbrain.com/blogs/1-think-tank/post/37343-building-intelligent-supply-chains-with-machine-learning)&#x20;
+
+* **Enhanced accuracy and precision:** Machine learning algorithms excel at tasks such as image and speech recognition, natural language processing, and predictive analytics, leading to higher accuracy and precision in various applications (Dingus & Black, 2021; Goh et al., 2020; Kuhl et al., 2022)&#x20;
+
+&#x20;           Example: [Precision fermentation](https://www.foodingredientsfirst.com/news/live-green-leverages-ai-powered-precision-fermentation-to-replace-animal-based-and-artificial-ingredients.html)&#x20;
+
+&#x20;           Example: [Precision farming](https://hellofuture.orange.com/en/precision-agriculture-ai-enters-the-field/)&#x20;
+
+* **Personalized experiences:** Machine learning enables personalized recommendations and experiences by understanding individual preferences, improving user satisfaction, and driving customer loyalty ([Ref;](https://www.geeksforgeeks.org/machine-learning-introduction/) Tufail et al., 2023)&#x20;
+
+&#x20;           Example: [Personalized learning](https://hellofuture.orange.com/en/school-learning-and-ai-personalized-lessons-and-real-time-corrections/)&#x20;
+
+* **Real-time fraud detection:** Machine learning algorithms can detect fraudulent activities by analyzing patterns and anomalies in transaction data, providing real-time fraud prevention and safeguarding financial systems (Beall, 2018; [Ref;](https://www.geeksforgeeks.org/machine-learning-introduction/) Choi & Lee, 2018)&#x20;
+
+&#x20;           Example: [Fraud detection](https://citylife.capetown/uncategorized/the-role-of-data-science-in-cybersecurity-and-fraud-detection/69236/) &#x20;
+
+* **Advanced healthcare diagnostics:** Machine learning aids in early disease detection and diagnosis by analyzing medical records, imaging data, and genetic information, enabling timely intervention and improved patient outcomes (Caliskan et al., 2022; O’Connor, 2022; Wee et al., 2021) &#x20;
+
+&#x20;           Example: [Rare Disease Diagnosis](https://healthitanalytics.com/news/machine-learning-approach-aims-to-optimize-rare-disease-diagnosis)&#x20;
+
+&#x20;           Example: [Targeted Disease Treatment](https://www.news-medical.net/health/Machine-Learning-for-Targeted-Disease-Treatment.aspx)  &#x20;
+
+* **Autonomous systems:** Machine learning plays a crucial role in autonomous vehicles, enabling object recognition, behavior prediction, and real-time decision-making for enhanced safety and efficiency (Southworth et al., 2023). &#x20;
+
+&#x20;           Example: [Self-driving cars](https://dataconomy.com/2022/12/28/artificial-intelligence-and-self-driving/)&#x20;
+
+* **Predictive maintenance:** Machine learning can analyze sensor data to predict equipment failures and maintenance needs, helping businesses proactively address issues and minimize downtime (Kane et al., 2022).&#x20;
+
+&#x20;           Example: [Predicting disease in olive groves](https://hellofuture.orange.com/en/using-ai-to-predict-diseases-in-olive-groves/) &#x20;
+
+&#x20;           Example: [Smart monitoring of industrial operations](https://hellofuture.orange.com/en/mastering-industrial-operations-thanks-to-smart-monitoring/)&#x20;
+
+* **Improved customer service:** Machine learning-powered chatbots and virtual assistants can understand natural language queries, provide instant and personalized assistance, and enhance customer service experiences (Dingus & Black, 2021; Druga et al., 2022)&#x20;
+
+&#x20;           Example: [Personalized customer experience](https://www.techopedia.com/ai-powered-personalization-how-machine-learning-is-transforming-customer-experience)&#x20;
+
+* **Scientific advancements:** Machine learning contributes to scientific research by enabling data analysis, pattern recognition, and simulations, accelerating discoveries and breakthroughs in various fields (Baum, 2021; Kasperiuniene, 2021)&#x20;
+
+&#x20;           Example: [Accelerating discovery of new materials for 3D printing](https://www.labmanager.com/accelerating-the-discovery-of-new-materials-for-3d-printing-26892)&#x20;
+
+&#x20;           Example: [Accelerating drug discovery](https://news.mit.edu/2023/speeding-drug-discovery-with-diffusion-generative-models-diffdock-0331) &#x20;
 
 </details>
 
