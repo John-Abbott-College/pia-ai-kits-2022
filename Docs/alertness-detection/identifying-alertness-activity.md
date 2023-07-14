@@ -35,4 +35,4 @@ In this activity, you’ll work on identifying characteristics related to the st
 
 </div>
 
-#### Share your characteristics [here](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=2).
+#### Share your characteristics [here.](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=3)

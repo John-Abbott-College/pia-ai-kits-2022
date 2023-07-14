@@ -82,11 +82,15 @@ Take a moment to reflect and respond to the following questions.&#x20;
 
 {% tabs %}
 {% tab title="Q1" %}
-<mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you? Add these instances to the share-out grid in the cell dedicated to you on this</mark> [page](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=0).
+<mark style="color:purple;">Were there instances where the algorithm made inaccurate predictions or misjudged you? Add these instances to the share-out grid in the cell dedicated to you</mark> [here.](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=0)
 {% endtab %}
 
 {% tab title="Q2" %}
-<mark style="color:purple;">The algorithm used metrics such as beauty, age, gender, body mass index, and life expectancy to measure normality. Classify the metrics as objective or subjective</mark> [here.](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=1)
+<mark style="color:purple;">Why were the models biased? Share your responses</mark> [here](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=1)[.](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=1)
+{% endtab %}
+
+{% tab title="Q3" %}
+<mark style="color:purple;">The algorithm used metrics such as beauty, age, gender, body mass index, and life expectancy to measure normality. Classify the metrics as objective or subjective</mark> [here.](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=2)
 {% endtab %}
 {% endtabs %}
 
@@ -100,18 +104,18 @@ _“If you have a low score, it might just be because the judgment of these algo
 
 ### **Bias** &#x20;
 
-The algorithms in the documentary classify and rate individuals based on the labelling of their training samples. Due to the manual labeling of training samples by individuals, the algorithms rely on subjective standards, making them susceptible to bias. &#x20;
+The algorithms in the documentary classify and rate individuals based on the labelling of their training samples. Due to the manual labeling of training samples by individuals, the algorithms rely on subjective standards, making them susceptible to bias (European Commission, 2018; [Ref](http://proceedings.mlr.press/v108/jiang20a/jiang20a.pdf)).
 
 For example, the training for the beauty algorithm was done exclusively by Chinese students who assigned beauty scores based on the traits they personally deem are most attractive ([Ref](https://starts.eu/article/detail/how-normal-am-i/)). This subjective labelling process makes the beauty algorithm biased toward Chinese beauty standards ([Ref](https://starts.eu/article/detail/how-normal-am-i/)). &#x20;
 
 Besides this obvious potential for bias, beauty cannot be based on objective norms as perceptions of it vary globally. Nevertheless, algorithms are being used to classify and compare people. Dating websites, for example, assign people beauty scores based on the photos they upload, and then match them with people who have the same beauty score ([Ref](https://www.tijmenschep.com/how-normal-am-i/)).  &#x20;
 
-The unjust implications of algorithms are not limited to the enforcement of subjective beauty standards. If the training data used to develop image or facial recognition models is biased or lacks diversity, it can lead to inaccurate and unfair results, disproportionately impacting certain demographic groups. This can result in discriminatory practices in areas such as law enforcement, surveillance, and hiring processes, reinforcing existing social biases and inequities. &#x20;
+The unjust implications of algorithms are not limited to the enforcement of subjective beauty standards. If the training data used to develop image or facial recognition models is biased or lacks diversity, it can lead to inaccurate and unfair results, disproportionately impacting certain demographic groups. This can result in discriminatory practices in areas such as law enforcement, surveillance, and hiring processes, reinforcing existing social biases and inequities ([Ref](https://www.brookings.edu/research/algorithmic-bias-detection-and-mitigation-best-practices-and-policies-to-reduce-consumer-harms/)).
 
 ### **Manipulation** &#x20;
 
 Facial recognition algorithms are not only susceptible to bias but also to manipulation. For example, the age algorithm in _How Normal Am I?_ will falsely perceive an individual to be young if they shake their head ([Ref](https://starts.eu/article/detail/how-normal-am-i/)). Moreover, manipulating certain factors such as lighting can influence the beauty score, while raising eyebrows can result in a lower BMI score ([Ref](https://starts.eu/article/detail/how-normal-am-i/)).&#x20;
 
-The potential for inaccurate predications has broader implications. [Facial recognition algorithms](http://gendershades.org/) have been known to exhibit high rates of false positives and false negatives, leading to wrongful identification and potential harm to innocent individuals.   &#x20;
+The potential for inaccurate predications has broader implications. [Facial recognition algorithms](http://gendershades.org/) have been known to exhibit high rates of false positives and false negatives, leading to wrongful identification and potential harm to innocent individuals.&#x20;
 
 </details>

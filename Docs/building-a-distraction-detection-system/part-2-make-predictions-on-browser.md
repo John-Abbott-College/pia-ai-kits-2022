@@ -14,14 +14,14 @@ You can create a P5js account if you'd like to save the web project, but this is
 
 ### Step 2
 
-Place the sharable link of the model you trained in the `imageModelURL` const. &#x20;
+Place the sharable link of the Trainable Machine model you trained in the `imageModelURL` const. &#x20;
 
 If the project files are not visible, click on the arrow as shown on the image below.&#x20;
 
-<figure><img src="../.gitbook/assets/Step 2 - pic 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/side.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3
 
 To load the sketch, click on play.
 
-<figure><img src="../.gitbook/assets/Step 2 - pic 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/play.png" alt=""><figcaption></figcaption></figure>

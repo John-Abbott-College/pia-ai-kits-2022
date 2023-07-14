@@ -35,19 +35,19 @@ By completing the <mark style="background-color:blue;">optional add-ons</mark>, 
 
 ### Prerequisite skills and hardware components required:&#x20;
 
-1. Basic programming.&#x20;
-2. A chrome-based browser such as Chrome, Edge or Brave. &#x20;
-3. For the <mark style="background-color:blue;">optional add-ons</mark>, you will need:&#x20;
+1. A chrome-based browser such as Chrome, Edge or Brave. &#x20;
+2. For the <mark style="background-color:blue;">optional add-ons</mark>, you will need:&#x20;
+   * Basic programming skills
    * Arduino compatible microcontroller such as the Raspberry Pi Pico or Arduino UNO
    * A Micro-USB cable
    * The latest version of Arduino IDE installed
    * An Active [Buzzer](https://www.circuitbasics.com/what-is-a-buzzer/)
    * A [Breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all)&#x20;
-   * Jumper wires
+   * Jumper wires x2
 
 ### Navigation
 
 Special notation has been used to make it easier to navigate through each page.&#x20;
 
-<table data-header-hidden><thead><tr><th width="185"></th><th></th></tr></thead><tbody><tr><td><strong>Learn More</strong></td><td><p><strong>Learn More</strong> sections contain additional information and a more in-depth explanation of a topic that is of particular importance. </p><p></p><p>PLEASE NOTE: <strong>It is not necessary to read this information,</strong> all activities can be completed without the <strong>Learn More</strong> content. </p></td></tr><tr><td><strong>Key Info</strong></td><td>Content that appears in <mark style="color:red;">red font</mark> should not be skimmed, it is key information and important to read. </td></tr><tr><td><p><strong>Reflection</strong> </p><p><strong>Questions</strong></p></td><td>Questions that appear in <mark style="color:purple;">purple font</mark> are meant to give you a chance to reflect and consider the implications of the information presented. </td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="185"></th><th></th></tr></thead><tbody><tr><td><strong>Learn More</strong></td><td><p><strong>Learn More</strong> sections contain additional information and a more in-depth explanation of a topic that is of particular importance. </p><p></p><p>PLEASE NOTE: <strong>It is not necessary to read this information,</strong> all activities can be completed without the <strong>Learn More</strong> content. </p></td></tr><tr><td><strong>Key Info</strong></td><td>Content highlighted in <mark style="color:red;">red</mark> represent crucial information and should be given your full attention.</td></tr><tr><td><p><strong>Reflection</strong> </p><p><strong>Questions</strong></p></td><td>Questions highlighted in <mark style="color:purple;">purple</mark> are meant to give you a chance to reflect and consider the implications of the information presented. </td></tr></tbody></table>
 

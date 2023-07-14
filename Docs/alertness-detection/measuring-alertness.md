@@ -22,11 +22,11 @@
 
  
 
-<figure><img src="../.gitbook/assets/blank space.png" alt="" width="73"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/empty.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/blank space.png" alt="" width="73"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/empty.png" alt=""><figcaption></figcaption></figure>
 
  
 
@@ -42,11 +42,11 @@
 
  
 
-<figure><img src="../.gitbook/assets/blank space.png" alt="" width="73"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/empty.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/blank space.png" alt="" width="73"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/empty.png" alt=""><figcaption></figcaption></figure>
 
  
 
@@ -66,7 +66,7 @@ Distraction is a multifaceted state that cannot be fully captured by just one ty
 
  
 
-<figure><img src="../.gitbook/assets/blank space.png" alt="" width="73"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/empty.png" alt=""><figcaption></figcaption></figure>
 
  
 

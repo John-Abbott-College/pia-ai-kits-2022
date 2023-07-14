@@ -29,11 +29,7 @@ To debug your code and see what is being printed on the console, select the arro
 
 <figure><img src="../.gitbook/assets/Step 3 - pic 1.png" alt=""><figcaption></figcaption></figure>
 
-<div data-full-width="true">
-
-<figure><img src="../.gitbook/assets/line.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+***
 
 ## IDE Setup Instructions&#x20;
 
@@ -61,11 +57,7 @@ Connect the micro-USB cable to the Pico and then plug the USB cable into the com
 
 Go to Tools > Port > Select Port &#x20;
 
-<div data-full-width="true">
-
-<figure><img src="../.gitbook/assets/line.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+***
 
 ## Circuit Setup Instructions&#x20;
 
@@ -77,7 +69,11 @@ Place the microcontroller on a breadboard. &#x20;
 
 Connect the + leg of the buzzer to GP5 pin and its negative leg to the ground (8th pin right under GP5 pin). &#x20;
 
-<figure><img src="../.gitbook/assets/pinout.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/pinout.png" alt=""><figcaption><p>Arduino Pico Schematic</p></figcaption></figure>
+
+###
+
+<figure><img src="../.gitbook/assets/picoDiagram.png" alt="" width="526"><figcaption><p>Wiring</p></figcaption></figure>
 
 ### Step 3
 
@@ -114,11 +110,9 @@ Go to Tools > Port > Select Port &#x20;
 
 Upload the code, if the buzzer is beeping your connections are valid. &#x20;
 
-<div data-full-width="true">
 
-<figure><img src="../.gitbook/assets/line.png" alt=""><figcaption></figcaption></figure>
 
-</div>
+***
 
 ## Arduino Sketch Setup&#x20;
 
