@@ -147,9 +147,7 @@ However, it is important to note, that the training phase machine learning syste
 
 There are several approaches researchers are taking to mitigate or minimize bias in AI systems, such as: &#x20;
 
-* utilizing feedback and learning from errors by testing AI systems with a diverse range of individuals ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit))
-* ensuring a balance in the training data employed to develop AI models ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit))&#x20;
-* developing novel methods to detect and identify biases in AI systems ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit))
-* establishing open datasets and fostering collaborations through partnerships ([Ref](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit))
+* Ensuring a balance in the training data employed to develop AI models ([Ref;](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit) Albadawi, Takruri, & Award, 2022; Liu et al., 2016) &#x20;
+* establishing open datasets ([Ref;](https://docs.google.com/document/d/1i\_\_XQcSVF1BfHCFWRZ3GkLaqWde0RVxyz2o85xBMMJw/edit) Sharara et al., 2023)&#x20;
 
 Think about how you can minimize bias and improve your model. Share your ideas [here](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=10). &#x20;
