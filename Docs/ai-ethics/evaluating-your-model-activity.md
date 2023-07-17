@@ -25,7 +25,7 @@ While there is no universal set of guidelines or regulations governing AI, a con
 #### Fairness &#x20;
 
 * To promote fairness in AI systems, it is crucial to address biases inherent in both the data employed for training AI systems and the systems themselves (Jobin et al., 2019).&#x20;
-* By mitigating these biases, it is possible to prevent AI applications from yielding unjust or discriminatory consequences that hinge on factors like race, gender, ethnicity, or socioeconomic status ([Ref](https://www.fatml.org/resources/principles-for-accountable-algorithms)).&#x20;
+* By attempting to mitigate these biases, AI applications can be prevented from yielding unjust or discriminatory consequences that hinge on factors like race, gender, ethnicity, or socioeconomic status. ([Ref](https://www.fatml.org/resources/principles-for-accountable-algorithms)).&#x20;
 
 #### Transparency &#x20;
 
