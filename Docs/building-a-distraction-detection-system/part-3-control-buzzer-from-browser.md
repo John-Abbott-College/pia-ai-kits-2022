@@ -41,7 +41,7 @@ Download and install the latest version of the Arduino IDE at this[ ](https://su
 
 Go to Tools > Boards > Board Manager in the IDE &#x20;
 
-Type "pico" in the search box and select the Arduino Mbed OS RP2040 Boards by Arduino and install it. &#x20;
+Type "pico" in the search box and select the Arduino Mbed OS RP2040 Boards by Arduino, then click on install. &#x20;
 
 <figure><img src="../.gitbook/assets/Step 3 - IDE Setup.png" alt=""><figcaption></figcaption></figure>
 
@@ -73,7 +73,7 @@ Connect the + leg of the buzzer to GP5 pin and its negative leg to the ground (8
 
 ###
 
-<figure><img src="../.gitbook/assets/picoDiagram.png" alt="" width="526"><figcaption><p>Wiring</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/picoDiagram.png" alt="" width="526"><figcaption><p>Connection example</p></figcaption></figure>
 
 ### Step 3
 
@@ -83,7 +83,7 @@ To validate that your circuit is working:&#x20;
 2. create a new Sketch&#x20;
 3. add the below code to it&#x20;
 
-```
+```arduino
 const int buzzer = 5;
  
 void setup() {  

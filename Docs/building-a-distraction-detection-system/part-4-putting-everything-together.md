@@ -10,7 +10,7 @@ Load the sketch to the microcontroller. &#x20;
 
 ### Step 3
 
-Run the p5 sketch on the browser. &#x20;
+Run the p5 sketch in the browser. &#x20;
 
 ### Step 4
 

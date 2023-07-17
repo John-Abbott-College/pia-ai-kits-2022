@@ -1,6 +1,6 @@
-# Part 2: Make Predictions on Browser
+# Part 2: Make Predictions in Browser
 
-To make predictions on the browser, you will modify a P5 sketch. &#x20;
+To make predictions in the browser, you will modify a P5 sketch. &#x20;
 
 [P5js](https://p5js.org/) is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, and beginners.  &#x20;
 

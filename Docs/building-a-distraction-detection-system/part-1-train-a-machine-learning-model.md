@@ -30,7 +30,7 @@ To add to your model, try to find datasets on Kaggle or roboflow. There are open
 Train the model and test it.&#x20;
 
 {% hint style="info" %}
-Training happens on the browser
+Training happens in the browser
 {% endhint %}
 
 ### Step 5
