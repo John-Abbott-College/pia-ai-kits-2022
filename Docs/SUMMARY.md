@@ -23,3 +23,7 @@
 ## AI Ethics
 
 * [Evaluate Your Model \[Activity\]](ai-ethics/evaluating-your-model-activity.md)
+
+***
+
+* [Acknowledgements](acknowledgements.md)
