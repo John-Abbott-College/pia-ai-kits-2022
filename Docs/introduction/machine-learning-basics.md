@@ -70,7 +70,9 @@ If the **training data** is not **diverse** and **balanced**, the system may lea
 
 ### _How Normal Am I?_
 
-Follow this [<mark style="color:blue;">link</mark> ](https://www.hownormalami.eu/)to take part in an interactive documentary that demonstrates how facial recognition algorithms are used to judge people ([Ref](https://www.project-sherpa.eu/how-normal-am-i-nominated-for-best-eu-website-of-the-year/)). &#x20;
+Follow this [<mark style="color:blue;">link</mark> ](https://www.hownormalami.eu/)to take part in an interactive documentary that demonstrates how facial recognition algorithms are used to judge people ([Ref](https://www.project-sherpa.eu/how-normal-am-i-nominated-for-best-eu-website-of-the-year/)).
+
+<figure><img src="../.gitbook/assets/image (1).png" alt="Landing page of site &#x22;How normal am I&#x22;" width="375"><figcaption><p>Landing page of site "How Normal Am I?"</p></figcaption></figure>
 
 {% hint style="info" %}
 The AI models used in _How Normal Am I?_ have been modified to operate within a web browser ([Ref](https://starts.eu/article/detail/how-normal-am-i/)). All data analysis occurs locally on your device, ensuring that no personal information is transmitted to the cloud ([Ref](https://starts.eu/article/detail/how-normal-am-i/)).
