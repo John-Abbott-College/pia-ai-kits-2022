@@ -64,10 +64,6 @@ While machine learning has demonstrated remarkable potential, it is not without 
 
 > <mark style="color:red;">“</mark><mark style="color:red;">**Bias**</mark> <mark style="color:red;"></mark><mark style="color:red;">is a prejudice for or against something or somebody, that may result in unfair decisions.” (European Commission, 2018)</mark>
 
-Humans are known to exhibit bias in their decisions, and since AI systems are created by humans, there is a possibility of unintentionally injecting bias into them (European Commission, 2018). This is especially true in AI systems that rely on machine learning techniques and the collection and selection of training data (European Commission, 2018).&#x20;
-
-If the **training data** is not **diverse** and **balanced**, the system may learn to make unfair decisions (European Commission, 2018). When AI systems are applied to scenarios involving people, biases related to shapes, colors, skin color, or gender can arise ([Ref](https://www.digitaltechnologieshub.edu.au/teach-and-assess/classroom-resources/lesson-ideas/data-bias-in-ai/)). These biases present ethical concerns as AI systems can reinforce and amplify existing biases, and their decision-making process may be difficult to understand or question due to their complex nature (Shaw, 2019).&#x20;
-
 ### _How Normal Am I?_
 
 Follow this [<mark style="color:blue;">link</mark> ](https://www.hownormalami.eu/)to take part in an interactive documentary that demonstrates how facial recognition algorithms are used to judge people ([Ref](https://www.project-sherpa.eu/how-normal-am-i-nominated-for-best-eu-website-of-the-year/)).
@@ -95,6 +91,10 @@ Take a moment to reflect and respond to the following questions.&#x20;
 <mark style="color:purple;">The algorithm used metrics such as beauty, age, gender, body mass index, and life expectancy to measure normality. Classify the metrics as objective or subjective</mark> [here.](https://jamboard.google.com/d/1hl8j9C71M-c26si500VDR7DIiD7zUTTF6JQb1cz\_iRQ/viewer?f=2)
 {% endtab %}
 {% endtabs %}
+
+Humans are known to exhibit bias in their decisions, and since AI systems are created by humans, there is a possibility of unintentionally injecting bias into them (European Commission, 2018). This is especially true in AI systems that rely on machine learning techniques and the collection and selection of training data (European Commission, 2018).&#x20;
+
+If the **training data** is not **diverse** and **balanced**, the system may learn to make unfair decisions (European Commission, 2018). When AI systems are applied to scenarios involving people, biases related to shapes, colors, skin color, or gender can arise ([Ref](https://www.digitaltechnologieshub.edu.au/teach-and-assess/classroom-resources/lesson-ideas/data-bias-in-ai/)). These biases present ethical concerns as AI systems can reinforce and amplify existing biases, and their decision-making process may be difficult to understand or question due to their complex nature (Shaw, 2019).&#x20;
 
 <details>
 
