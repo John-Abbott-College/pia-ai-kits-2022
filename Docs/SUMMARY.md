@@ -27,3 +27,4 @@
 ***
 
 * [Acknowledgements](acknowledgements.md)
+* [References](references.md)

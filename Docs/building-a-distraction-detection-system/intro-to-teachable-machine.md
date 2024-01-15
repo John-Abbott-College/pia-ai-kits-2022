@@ -1,6 +1,6 @@
 # Intro to Teachable Machine
 
-[**Teachable Machine**](https://teachablemachine.withgoogle.com/) is a web-based tool developed by Google that allows users to create ML models without requiring any coding ([Ref](https://ml4design.com/tutorials/teachable-machine-module/preparation/)). &#x20;
+[Teachable Machine](https://teachablemachine.withgoogle.com/) is a web-based tool developed by Google that allows users to create ML models without requiring any coding ​\[44]​. It provides an interface for training and deploying custom models for image, sound, and gesture recognition ​\[45]​. &#x20;
 
 It provides an interface for training and deploying custom models for **image**, **sound**, and **gesture** recognition tasks. &#x20;
 
