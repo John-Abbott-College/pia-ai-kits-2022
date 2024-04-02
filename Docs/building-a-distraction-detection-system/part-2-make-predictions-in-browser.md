@@ -6,7 +6,7 @@ To make predictions in the browser, you will modify a P5 sketch. &#x20;
 
 ### Step 1
 
-Open the[ ](https://editor.p5js.org/Meghr/sketches/NKWyIJt2I)[sketch](https://editor.p5js.org/Meghr/sketches/jJ1XMk-mT) that includes the required starter code on Chrome browser.  &#x20;
+Open the[ ](https://editor.p5js.org/Meghr/sketches/NKWyIJt2I)[sketch](https://editor.p5js.org/Meghr/sketches/NKWyIJt2I) that includes the required starter code on Chrome browser.  &#x20;
 
 {% hint style="info" %}
 You can create a P5js account if you'd like to save the web project, but this is optional as you do not need to create an account to complete the activity.
