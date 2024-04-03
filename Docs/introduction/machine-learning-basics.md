@@ -96,9 +96,9 @@ Humans are known to exhibit bias in their decisions, and since AI systems are cr
 
 If the training data is not diverse and balanced, the system may learn to make unfair decisions \[17], \[19]. When AI systems are applied to scenarios involving people, biases related to shapes, colors, skin color, or gender can arise \[20]. These biases present ethical concerns as AI systems can reinforce and amplify existing biases, and their decision-making process may be difficult to understand or question due to their complex nature \[21] - \[22].  &#x20;
 
-Example: Gender Shades &#x20;
+Example: [Gender Shades ](http://gendershades.org)&#x20;
 
-Example: Amazon AI-enabled recruitment tool only recommended men&#x20;
+Example:[ Amazon AI-enabled recruitment tool only recommended men](https://www.bbc.com/news/technology-45809919)&#x20;
 
 <details>
 
