@@ -23,4 +23,4 @@ Distracted driving is dangerous because it compromises a driver's ability to:&#x
 * Make informed decisions \[28]
 * Perform effectively behind the wheel \[28]
 
-<figure><img src="../.gitbook/assets/Around 79% of drivers admit to engaging in distracting activities while driving, with in-vehicle technologies being particularly dangerous, including phones, car consoles, and voice-activated features. (3).png" alt=""><figcaption><p>[32]-[33]</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Around 79% of drivers admit to engaging in distracting activities while driving, with in-vehicle technologies being particularly dangerous, including phones, car consoles, and voice-activated features. (3).png" alt="" width="375"><figcaption><p>[32]-[33]</p></figcaption></figure>
