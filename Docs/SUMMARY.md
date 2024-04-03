@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Project Information](README.md)
+
 ## Introduction
 
-* [Intro to Kit](README.md)
+* [Intro to Kit](<README (1).md>)
 * [Into to Machine Learning \[Activity\]](introduction/machine-learning-basics.md)
 
 ## Distraction Detection
