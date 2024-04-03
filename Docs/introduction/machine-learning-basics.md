@@ -68,7 +68,7 @@ While machine learning has demonstrated remarkable potential, it is not without 
 
 Follow this [<mark style="color:blue;">link</mark> ](https://www.hownormalami.eu/)to take part in an interactive documentary that demonstrates how facial recognition algorithms are used to judge people \[23].
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="Landing page of site &#x22;How normal am I&#x22;" width="375"><figcaption><p>Landing page of site "How Normal Am I?"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="Landing page of site &#x22;How normal am I&#x22;" width="375"><figcaption><p>Landing page of site "How Normal Am I?"</p></figcaption></figure>
 
 {% hint style="info" %}
 The AI models used in _How Normal Am I?_ have been modified to operate within a web browser \[24]. All data analysis occurs locally on your device, ensuring that no personal information is transmitted to the cloud \[24].
