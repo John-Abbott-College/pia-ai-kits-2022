@@ -17,7 +17,7 @@ In this activity, you’ll work on identifying characteristics related to the st
 * <mark style="color:purple;">How do we recognize</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**alertness**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">in ourselves and others?</mark>&#x20;
 * <mark style="color:purple;">What cues or characteristics indicate that a person is</mark> <mark style="color:purple;"></mark><mark style="color:purple;">**distracted**</mark><mark style="color:purple;">?</mark>
 
-## 3. Pair
+## 2. Pair
 
 <div align="left">
 
