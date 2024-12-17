@@ -1,107 +1,53 @@
-# Step 1: Loading Data
+# Teaching Guide for Intro to Recommender systems: Ethical Consumer Choices
 
-## Loading product data
+### Purpose <a href="#toc1563877551" id="toc1563877551"></a>
 
-**Importing necessary libraries**
+This document is meant to act as a teaching guide for kit 2’s activity _Intro to Recommender systems: Ethical Consumer Choices_ (follow the link to access the student version of the activity).
 
-This code is in Python and below we are importing two libraries to provide us with extra functionality beyond what is available in the core programming language.
+In this activity students will clean and manipulate data to generate three types of product recommendations. Students will generate popular-based recommendations by writing SQL (Structured Query Language) queries on SSMS (SQL Server Management Studio). Students will also generate Content-based and Collaborate filtering recommendations using pandas, numpy, sklearn, and surprise libraries on a Kaggle notebook.
 
-{% code overflow="wrap" fullWidth="true" %}
-```python
-# Importing necessary libraries
-import pandas as pd
-import numpy as np
-# Loading in products data
-product\_info = pd.read\_csv("/kaggle/input/sephora-products-and-skincare-reviews/product\_info.csv")product\_info.info(verbose=True)
-```
-{% endcode %}
+### Target Audience <a href="#toc213657394" id="toc213657394"></a>
 
-```python
-import pandas as pd
-```
+The activity has been designed for CEGEP students who are in their second year of a computer science program.
 
-[**pandas**](https://pandas.pydata.org/docs/index.html) is a data manipulation and analysis library. It is particularly used for data structures and numerical manipulation. We are specifying that from now on, we will be typing a shorthand `pd` anytime we use `pandas`.
+### Prerequisite skills & hardware components required <a href="#toc143897835" id="toc143897835"></a>
 
-```python
-import numpy as np
-```
+To complete this activity, the following is required:
 
-[**numpy**](https://numpy.org/) is a popular library that has extra functionality to work with arrays and matrices. We are also specifying that we will be using the shorthand `np` anytime we use `numpy`.
+**Equipment & Software**
 
-{% code overflow="wrap" %}
-```python
-product_info = pd.read_csv("/kaggle/input/sephora-products-and-skincare-reviews/product_info.csv")
-```
-{% endcode %}
+* [Kaggle Account](https://www.kaggle.com/account/login?phase=startRegisterTab\&returnUrl=%2F)
 
-This line uses `read_csv` from the pandas library to read a specified CSV file. The location of the file is specified in quotes. The file is then loaded into the variable `product_info` of type [**DataFrame**](https://www.w3schools.com/python/pandas/pandas_dataframes.asp)**.**
+**Prerequisite Knowledge**
 
-{% hint style="info" %}
-**What’s a DataFrame?**
+* Intermediate SQL knowledge
 
-&#x20;
+### Learning objectives <a href="#toc143897836" id="toc143897836"></a>
 
-A DataFrame is a _data structure_ that organizes data into a 2-dimensional table of rows and columns, much like a spreadsheet \[1].
+By completing this activity, students will be able to:
+
+1. Describe the different types of recommender systems
+2. Generate a product recommender system
+3. Identify issues related to recommender systems
+4. Evaluate the implications of a recommender system based on the principles of ethical AI
+
+### Activity Breakdown <a href="#toc874405034" id="toc874405034"></a>
+
+This activity includes comprehensive, step-by-step instructions for constructing a simple recommender system. Throughout the activity, students are reminded about the importance of developing AI in an ethical manner. Like this guide, the student version of the activity is available on gitbook as well as in MS Word format.
 
 
-{% endhint %}
 
-**info()** is a method that provides a concise summary of the data stored in the `product_info` variable. The `verbose` parameter is set to `True` to provide full information on all columns.
+<table data-header-hidden data-full-width="true"><thead><tr><th width="183"></th><th width="194"></th><th width="455"></th><th></th></tr></thead><tbody><tr><td><strong>Section</strong></td><td><strong>Sub-Section</strong></td><td><strong>Description / Objectives</strong></td><td><strong>Length</strong></td></tr><tr><td>What are Recommender Systems?</td><td></td><td>Introduces learners to the concept of a recommender system, engages students in reflection and discussion on what recommendations systems are and how they might have interacted with them</td><td>20 mins.</td></tr><tr><td>How are Recommender Systems Used?</td><td></td><td>Introduces learners to the main areas in which recommender systems are used and examples of companies in these areas that use them</td><td>5 mins.</td></tr><tr><td>Types of Recommender Systems</td><td><ol><li>Popular-based<br></li></ol></td><td>Defines popular-based recommender system, provides an example of this type of recommender system, and discusses its advantages and disadvantages</td><td>5 mins.</td></tr><tr><td></td><td><ol start="2"><li>Content-based</li></ol></td><td>Defines content-based recommender system, provides an example of this type of recommender system, and discusses its advantages and disadvantages</td><td>5 mins.</td></tr><tr><td></td><td><ol start="3"><li>Collaborative filtering</li></ol></td><td>Defines collaborative filtering recommender system, breaking this category down into its two main types – memory-based and model-based – presenting examples, advantages, and disadvantages for both types</td><td>10 mins.</td></tr><tr><td></td><td><ol start="4"><li>Hybrid</li></ol></td><td>Defines hybrid-based recommender system and discusses the advantages and disadvantages of this approach</td><td>3 mins.</td></tr><tr><td>Building a Recommender System</td><td>Data</td><td>Presents the dataset students will use to build their recommender system, describing its main components and defining terms used in the dataset</td><td>5 mins.</td></tr><tr><td></td><td>Part 1 – Popular-based recommendations</td><td>Creates Popular based recommendations using SQL.</td><td></td></tr><tr><td></td><td>Part 2 – Content-based and Collaborative filtering recommendations on notebook</td><td>Creates Content-based and collaborative filtering recommendations using using pandas, numpy, sklearn, and surprise libraries on a Kaggle notebook.</td><td></td></tr><tr><td>Issues with Recommender Systems</td><td></td><td>Introduces learners to the issues related to recommender systems, provides a description and example of each major issue</td><td>10 mins.</td></tr><tr><td>The Ethics of Recommender Systems</td><td>Principles for Creating Ethical AI</td><td>Describes principles for creating ethical AI and challenges related to using recommender systems for the promotion of ethical consumption</td><td>15 mins.</td></tr><tr><td></td><td>Groupwork: Balancing Animal Rights and Traditional Practices in Recommender Systems</td><td>Learners engage in a group exercise in which they must improve a fictional recommender system, taking into account the needs of the system’s diverse stakeholders</td><td>45 mins.</td></tr></tbody></table>
 
-### Loading the reviews data and merging DataFrames
+### Teacher Guide Navigation <a href="#toc1604080072" id="toc1604080072"></a>
 
-{% code fullWidth="true" %}
-```python
-# Loading in reviews data
+It is highly recommended to complete the activity at least once to be familiar with the content before attempting to guide students through it. There are a few sections with special preparation notes. This must be read and completed before teaching the section. In cases where there are no specific preparation notes provided, simply reviewing the section’s material before teaching is sufficient.
 
-df1 = pd.read_csv("/kaggle/input/sephora-products-and-skincare-reviews/reviews_0_250.csv", low_memory=False)
-df2 = pd.read_csv("/kaggle/input/sephora-products-and-skincare-reviews/reviews_250_500.csv", low_memory=False)
-df3 = pd.read_csv("/kaggle/input/sephora-products-and-skincare-reviews/reviews_500_750.csv", low_memory=False)
-df4 = pd.read_csv("/kaggle/input/sephora-products-and-skincare-reviews/reviews_750_1000.csv", low_memory=False)
-df5 = pd.read_csv("/kaggle/input/sephora-products-and-skincare-reviews/reviews_1000_1500.csv", low_memory=False)
-df6 = pd.read_csv("/kaggle/input/sephora-products-and-skincare-reviews/reviews_1500_end.csv", low_memory=False)
 
-# Combining the dfs
-reviews = pd.concat([df1,df2,df3,df4,df5,df6])
-reviews.info()
 
-```
-{% endcode %}
+The teaching notes are organized in a _do, say, and ask_ format.
 
-```python
-dfX = pd.read_csv("path", low_memory=False)
-```
-
-The `df1` to `df6`  variables contain chunks of one big product-information data set. The files are loaded with the argument `low_memory=False` to prevent pandas from saving memory by guessing `product_info` types which can lead to errors such as:
-
-* **Data Loss** : Some data might be lost if pandas misinterprets the data type. For example, if a column contains both numbers and strings, pandas might interpret this column as numeric and replace string values with NaN.
-* **Incorrect Data Types** : Pandas might interpret a column of strings as floating point numbers, or vice versa. This can lead to unexpected behavior when you attempt to manipulate the data later.
-* **Performance issues** : If pandas guesses a less memory-intensive data type than the actual one, it may need to upcast that data type later when it encounters a value that doesn't fit. This can slow down the data loading process significantly.
-* **Misleading Statistics:** If numeric data is interpreted as strings, methods like mean, min, max, etc., will produce incorrect results or may not work at all.
-
-```python
-reviews = pd.concat([df1,df2,df3,df4,df5,df6])
-reviews.info()
-```
-
-The `reviews` DataFrame will store all the loaded data chunks that are merged using `concat()`**.**
-
-`.info()` is a method to print the summary of the `reviews` DataFrame.
-
-#### Detect missing values.
-
-{% code fullWidth="true" %}
-```python
-num_missing = product_info.isna().sum()
-num_missing
-```
-{% endcode %}
-
-We are looking for any missing or unavailable (NaN) values in the `product_info` DataFrame.
-
-`product_info.isna()` returns a boolean value (True or False) after looping over all the rows in the DataFrame. If any missing or unavailable values are detected it returns `True` , otherwise it returns `False`.
-
-`.sum()` function adds True as 1 and False as 0 for each column and gives us the total.
-
-`num_missing` variable is an array (pandas Series) where the index represents the column of the `product_info` DataFrame and the value in each index is the number of missing values in that column.
-
+* _Do_ prompts include actions for the teacher to do themself.
+* _Ask_ prompts include questions that the teacher needs to ask students.
+* _Say_ prompts include content that is meant to be presented by the teacher to students.
+  * In some of these prompts, content from the learn more sections of the student guide, which is optional for students to read, have been included. Some of these prompts include additional material sourced from the learn more sections of the student guide, which is optional for students to read. This inclusion serves to offer supplementary content for teachers to reference and discuss when students require further clarification.
