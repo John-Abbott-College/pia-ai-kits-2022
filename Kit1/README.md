@@ -1,7 +1,14 @@
-# Project Information
+# PIA AI Kits 2022
+Code and documentation for AI kits used in JACU PIA 2022-2023 grant.
 
-Funded by the Pôle Montréalais d’Enseignement Supérieur en Intelligence Artificielle (PIA) and executed by the computer science department of John Abbott College and education department from Concordia University, this project aims to introduce students to artificial intelligence (AI) and the ways in which it is impacting society. To achieve this, three open-source educational kits have been created: &#x20;
+This repository contains material used to develop educational kits that teach Artificial Intelligence for college students in technical programs.
 
-1. Intro to Ethical ML: Driver Distraction &#x20;
-2. Intro to Recommender systems: Ethical Consumer Choices&#x20;
-3. Intro to Energy Preservation using ML: Monitoring Room Occupancy
+The research is done by a team from John Abbott College and Concordia University (collectively called JACU), with a grant awarded by PIA (Pôle montréalais d’enseignement supérieur en intelligence artificielle) during the 2022-2023 academic year.
+
+Repository organization:
+
+- **Docs**: Markdown and assets synchronized with GitBook.
+- **room_occupany_audio**: Code used in Kit 3 in order to collect and upload audio data to Edge Impulse as well as deploy a ML model to a Raspberry Pi 4.
+- **testing**
+  - **hardware-testing:** Testing of individual hardware sensors and actuators. 
+  - **platform-testing:** Testing of specific AI flatforms or frameworks.
