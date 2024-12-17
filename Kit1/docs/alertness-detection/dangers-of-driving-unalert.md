@@ -5,7 +5,7 @@
 * refers to instances in which a driver's attention is diverted from the road and the tasks necessary for safe driving \[28]
 * includes a wide range of distracted behaviour from moments of insufficient attention, such as talking to a passenger \[29], to a complete lack of attention, such as falling asleep at the wheel\[30].
 
-<div><figure><img src="../../.gitbook/assets/passgenger talking to driver - same size as drowsy driving.jpg" alt=""><figcaption><p>Talking to a passenger</p></figcaption></figure> <figure><img src="../../.gitbook/assets/drowsy driving.jpeg" alt=""><figcaption><p>Falling asleep at the wheel</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/passgenger talking to driver - same size as drowsy driving.jpg" alt=""><figcaption><p>Talking to a passenger</p></figcaption></figure> <figure><img src="../../.gitbook/assets/drowsy driving (1).jpeg" alt=""><figcaption><p>Falling asleep at the wheel</p></figcaption></figure></div>
 
 ### _What makes it dangerous?_
 
